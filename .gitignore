@@ -1,0 +1,36 @@
+# --------------------
+# macOS / Operating System
+# --------------------
+# Mac-specific desktop services file
+.DS_Store
+
+# --------------------
+# Python / pipx / Virtual Environments
+# --------------------
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+# Ignore virtual environment folders (pipx installs LEAN CLI here)
+.venv/
+/venv/
+
+# --------------------
+# .NET / C# General Build Output
+# --------------------
+# Ignore temporary project files
+*.pdb
+*.suo
+*.user
+*.bak
+
+# --------------------
+# Code Editor (VS Code/Cursor)
+# --------------------
+# Ignore local workspace settings and launch configs
+.vscode/
+
+# --------------------
+# Logging and Temporary Files
+# --------------------
+*.log
+*~
