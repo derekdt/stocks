@@ -68,7 +68,7 @@ namespace QuantConnect.Algorithm.CSharp
         private const int MinTradingDays = 4;
 
         private const string TickerSymbol = "QQQ";
-        private static readonly DateTime HistoryStartDate = new DateTime(2014, 1, 1);
+        private static readonly DateTime HistoryStartDate = new DateTime(2015, 1, 1);
         private static readonly DateTime HistoryEndDate = new DateTime(2025, 12, 1);
 
         public override void Initialize()
@@ -153,21 +153,23 @@ namespace QuantConnect.Algorithm.CSharp
             Log("");
             
             // Table header with percentage columns
-            Log("Start Date | End Date  | Open      | High      | Low       | Close     | Volume      | Trading Days | %O->H    | %O->L    | %O->C");
-            Log("-----------|-----------|-----------|-----------|-----------|-----------|-------------|--------------|----------|----------|----------");
+            Log("StartDate  | EndDate   | Open      | High      | Low       | Close     | Volume      | TradingDays  | OpenToHigh | OpenToLow  | OpenToClose | LowToHigh");
+            Log("-----------|-----------|-----------|-----------|-----------|-----------|-------------|--------------|------------|------------|-------------|----------");
             
             // Collect percentages for statistics
             var pctOpenToHighList = new List<decimal>();
             var pctOpenToLowList = new List<decimal>();
             var pctOpenToCloseList = new List<decimal>();
+            var pctLowToHighList = new List<decimal>();
             
             // Table rows with percentages
             foreach (var bar in history)
             {
-                // Calculate percentages from open
+                // Calculate percentages
                 var pctOpenToHigh = bar.Open != 0 ? (bar.High - bar.Open) / bar.Open * 100m : 0m;
                 var pctOpenToLow = bar.Open != 0 ? (bar.Low - bar.Open) / bar.Open * 100m : 0m;
                 var pctOpenToClose = bar.Open != 0 ? (bar.Close - bar.Open) / bar.Open * 100m : 0m;
+                var pctLowToHigh = bar.Low != 0 ? (bar.High - bar.Low) / bar.Low * 100m : 0m;
                 
                 // Get trading days count and end date for this week
                 var tradingDaysCount = 0;
@@ -182,8 +184,9 @@ namespace QuantConnect.Algorithm.CSharp
                 pctOpenToHighList.Add(pctOpenToHigh);
                 pctOpenToLowList.Add(pctOpenToLow);
                 pctOpenToCloseList.Add(pctOpenToClose);
+                pctLowToHighList.Add(pctLowToHigh);
                 
-                Log($"{bar.Time:yyyy-MM-dd} | {weekEndDate:yyyy-MM-dd} | {bar.Open,9:F2} | {bar.High,9:F2} | {bar.Low,9:F2} | {bar.Close,9:F2} | {bar.Volume,11:N0} | {tradingDaysCount,13} | {pctOpenToHigh,8:F2}% | {pctOpenToLow,8:F2}% | {pctOpenToClose,8:F2}%");
+                Log($"{bar.Time:yyyy-MM-dd} | {weekEndDate:yyyy-MM-dd} | {bar.Open,9:F2} | {bar.High,9:F2} | {bar.Low,9:F2} | {bar.Close,9:F2} | {bar.Volume,11:N0} | {tradingDaysCount,13} | {pctOpenToHigh,8:F2}% | {pctOpenToLow,8:F2}% | {pctOpenToClose,8:F2}% | {pctLowToHigh,8:F2}%");
             }
             
             Log("");
@@ -230,23 +233,29 @@ namespace QuantConnect.Algorithm.CSharp
                 return (decimal)Math.Sqrt((double)(sumSquaredDiffs / list.Count));
             };
             
-            // %O->H Statistics
+            // OpenToHigh Statistics
             var avgOtoH = pctOpenToHighList.Average();
             var medianOtoH = median(pctOpenToHighList);
             var stdDevOtoH = stdDev(pctOpenToHighList);
-            Log($"%O->H: Average = {avgOtoH:F2}% | Median = {medianOtoH:F2}% | Std Dev = {stdDevOtoH:F2}%");
+            Log($"OpenToHigh: Average = {avgOtoH:F2}% | Median = {medianOtoH:F2}% | Std Dev = {stdDevOtoH:F2}%");
             
-            // %O->L Statistics
+            // OpenToLow Statistics
             var avgOtoL = pctOpenToLowList.Average();
             var medianOtoL = median(pctOpenToLowList);
             var stdDevOtoL = stdDev(pctOpenToLowList);
-            Log($"%O->L: Average = {avgOtoL:F2}% | Median = {medianOtoL:F2}% | Std Dev = {stdDevOtoL:F2}%");
+            Log($"OpenToLow: Average = {avgOtoL:F2}% | Median = {medianOtoL:F2}% | Std Dev = {stdDevOtoL:F2}%");
             
-            // %O->C Statistics
+            // OpenToClose Statistics
             var avgOtoC = pctOpenToCloseList.Average();
             var medianOtoC = median(pctOpenToCloseList);
             var stdDevOtoC = stdDev(pctOpenToCloseList);
-            Log($"%O->C: Average = {avgOtoC:F2}% | Median = {medianOtoC:F2}% | Std Dev = {stdDevOtoC:F2}%");
+            Log($"OpenToClose: Average = {avgOtoC:F2}% | Median = {medianOtoC:F2}% | Std Dev = {stdDevOtoC:F2}%");
+            
+            // LowToHigh Statistics
+            var avgLtoH = pctLowToHighList.Average();
+            var medianLtoH = median(pctLowToHighList);
+            var stdDevLtoH = stdDev(pctLowToHighList);
+            Log($"LowToHigh: Average = {avgLtoH:F2}% | Median = {medianLtoH:F2}% | Std Dev = {stdDevLtoH:F2}%");
             
             // Log excluded weeks (weeks with less than 4 trading days)
             if (excludedWeeks.Count > 0)
