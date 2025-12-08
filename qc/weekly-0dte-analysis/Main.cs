@@ -64,7 +64,9 @@ namespace QuantConnect.Algorithm.CSharp
 
     public class Weekly0dteanalysis : QCAlgorithm
     {
-        private Symbol _qqq;
+        private Symbol Ticker;
+        private const bool LogWeeklyTradingDates = false; // Set to true to log individual trading dates for each week
+        private const int MinTradingDays = 4;
 
         public override void Initialize()
         {
@@ -78,13 +80,13 @@ namespace QuantConnect.Algorithm.CSharp
             // Set data normalization to split-adjusted to account for stock splits
             var equity = AddEquity("QQQ", Resolution.Daily);
             equity.SetDataNormalizationMode(DataNormalizationMode.SplitAdjusted);
-            _qqq = equity.Symbol;
+            Ticker = equity.Symbol;
 
             // Retrieve historical daily bars for QQQ
             // History() can access data up to the algorithm's start date
-            var startDate = new DateTime(2018, 1, 1);
+            var startDate = new DateTime(2015, 1, 1);
             var endDate = new DateTime(2025, 12, 1);
-            var dailyHistory = History(_qqq, startDate, endDate, Resolution.Daily);
+            var dailyHistory = History(Ticker, startDate, endDate, Resolution.Daily);
 
             // Consolidate daily bars to weekly bars
             // Note: History() only returns trading days (excludes weekends and holidays)
@@ -111,7 +113,7 @@ namespace QuantConnect.Algorithm.CSharp
                 
                 // Filter out weeks with less than 4 trading days
                 // This excludes partial weeks (holidays, year-end, etc.)
-                if (weekBars.Count < 4)
+                if (weekBars.Count < MinTradingDays)
                 {
                     var tradingDates = weekBars.Select(b => b.Time.Date).ToList();
                     excludedWeeks.Add((weekStart, weekBars.Count, tradingDates));
@@ -154,8 +156,8 @@ namespace QuantConnect.Algorithm.CSharp
             Log("");
             
             // Table header with percentage columns
-            Log("Date       | Open      | High      | Low       | Close     | Volume      | %O->H    | %O->L    | %O->C");
-            Log("-----------|-----------|-----------|-----------|-----------|-------------|----------|----------|----------");
+            Log("Start Date | End Date  | Open      | High      | Low       | Close     | Volume      | Trading Days | %O->H    | %O->L    | %O->C");
+            Log("-----------|-----------|-----------|-----------|-----------|-----------|-------------|--------------|----------|----------|----------");
             
             // Collect percentages for statistics
             var pctOpenToHighList = new List<decimal>();
@@ -170,30 +172,42 @@ namespace QuantConnect.Algorithm.CSharp
                 var pctOpenToLow = bar.Open != 0 ? (bar.Low - bar.Open) / bar.Open * 100m : 0m;
                 var pctOpenToClose = bar.Open != 0 ? (bar.Close - bar.Open) / bar.Open * 100m : 0m;
                 
+                // Get trading days count and end date for this week
+                var tradingDaysCount = 0;
+                var weekEndDate = bar.Time;
+                if (weeklyTradingDates.TryGetValue(bar.Time, out var tradingDates))
+                {
+                    tradingDaysCount = tradingDates.Count;
+                    weekEndDate = tradingDates.Last(); // Last trading day of the week
+                }
+                
                 // Store for statistics
                 pctOpenToHighList.Add(pctOpenToHigh);
                 pctOpenToLowList.Add(pctOpenToLow);
                 pctOpenToCloseList.Add(pctOpenToClose);
                 
-                Log($"{bar.Time:yyyy-MM-dd} | {bar.Open,9:F2} | {bar.High,9:F2} | {bar.Low,9:F2} | {bar.Close,9:F2} | {bar.Volume,11:N0} | {pctOpenToHigh,8:F2}% | {pctOpenToLow,8:F2}% | {pctOpenToClose,8:F2}%");
+                Log($"{bar.Time:yyyy-MM-dd} | {weekEndDate:yyyy-MM-dd} | {bar.Open,9:F2} | {bar.High,9:F2} | {bar.Low,9:F2} | {bar.Close,9:F2} | {bar.Volume,11:N0} | {tradingDaysCount,13} | {pctOpenToHigh,8:F2}% | {pctOpenToLow,8:F2}% | {pctOpenToClose,8:F2}%");
             }
             
             Log("");
             Log($"Total weekly bars: {history.Count}");
             Log("");
             
-            // Log trading dates for each week for verification
-            Log("Weekly Bar Trading Dates:");
-            Log("========================");
-            foreach (var bar in history.OrderBy(b => b.Time))
+            // Log trading dates for each week for verification (if enabled)
+            if (LogWeeklyTradingDates)
             {
-                if (weeklyTradingDates.TryGetValue(bar.Time, out var tradingDates))
+                Log("Weekly Bar Trading Dates:");
+                Log("========================");
+                foreach (var bar in history.OrderBy(b => b.Time))
                 {
-                    var datesStr = string.Join(", ", tradingDates.Select(d => d.ToString("yyyy-MM-dd")));
-                    Log($"Week starting {bar.Time:yyyy-MM-dd} ({tradingDates.Count} days): {datesStr}");
+                    if (weeklyTradingDates.TryGetValue(bar.Time, out var tradingDates))
+                    {
+                        var datesStr = string.Join(", ", tradingDates.Select(d => d.ToString("yyyy-MM-dd")));
+                        Log($"Week starting {bar.Time:yyyy-MM-dd} ({tradingDates.Count} days): {datesStr}");
+                    }
                 }
+                Log("");
             }
-            Log("");
             
             // Calculate and log statistics for each percentage column
             Log("Percentage Statistics:");
@@ -241,7 +255,7 @@ namespace QuantConnect.Algorithm.CSharp
             if (excludedWeeks.Count > 0)
             {
                 Log("");
-                Log($"Excluded Weeks (less than 4 trading days): {excludedWeeks.Count}");
+                Log($"Excluded Weeks (less than {MinTradingDays} trading days): {excludedWeeks.Count}");
                 Log("==========================================");
                 foreach (var excluded in excludedWeeks.OrderBy(x => x.WeekStart))
                 {
@@ -252,7 +266,7 @@ namespace QuantConnect.Algorithm.CSharp
             else
             {
                 Log("");
-                Log("No weeks excluded (all weeks had 4+ trading days)");
+                Log($"No weeks excluded (all weeks had {MinTradingDays}+ trading days)");
             }
         }
 
