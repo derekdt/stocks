@@ -64,29 +64,26 @@ namespace QuantConnect.Algorithm.CSharp
 
     public class Weekly0dteanalysis : QCAlgorithm
     {
-        private Symbol Ticker;
         private const bool LogWeeklyTradingDates = false; // Set to true to log individual trading dates for each week
         private const int MinTradingDays = 4;
 
+        private const string TickerSymbol = "QQQ";
+        private static readonly DateTime HistoryStartDate = new DateTime(2014, 1, 1);
+        private static readonly DateTime HistoryEndDate = new DateTime(2025, 12, 1);
+
         public override void Initialize()
         {
-            // Locally Lean installs free sample data, to download more data please visit https://www.quantconnect.com/docs/v2/lean-cli/datasets/downloading-data
-            // Set algorithm start date AFTER the history end date so we can access all historical data
-            SetStartDate(2025, 12, 2); // Set Start Date (after history end date)
-            SetEndDate(2025, 12, 7); // Set End Date (short period since we're just retrieving history)
-            SetCash(100000);             //Set Strategy Cash
+            // NOTE: Algorithm start/end dates are the dates of the algorithm execution, not the data retrieval.
+            //       We don't really care about these dates as long as they're after the data retrieval end date since we can't retrieve history about the future
+            SetStartDate(HistoryEndDate.AddDays(1)); // Set Start Date (1 day after the history end date)
+            SetEndDate(HistoryEndDate.AddDays(2)); // Set End Date (2 days after the history end date)
 
-            // Add QQQ with daily resolution (we'll consolidate to weekly)
+            // Add with daily resolution (we'll consolidate to weekly)
             // Set data normalization to split-adjusted to account for stock splits
-            var equity = AddEquity("QQQ", Resolution.Daily);
+            var equity = AddEquity(TickerSymbol, Resolution.Daily);
             equity.SetDataNormalizationMode(DataNormalizationMode.SplitAdjusted);
-            Ticker = equity.Symbol;
 
-            // Retrieve historical daily bars for QQQ
-            // History() can access data up to the algorithm's start date
-            var startDate = new DateTime(2015, 1, 1);
-            var endDate = new DateTime(2025, 12, 1);
-            var dailyHistory = History(Ticker, startDate, endDate, Resolution.Daily);
+            var dailyHistory = History(equity.Symbol, HistoryStartDate, HistoryEndDate, Resolution.Daily);
 
             // Consolidate daily bars to weekly bars
             // Note: History() only returns trading days (excludes weekends and holidays)
@@ -152,7 +149,7 @@ namespace QuantConnect.Algorithm.CSharp
             }
             
             // Create formatted table output with percentages
-            Log($"Retrieved {history.Count} weekly bars for QQQ from {startDate:yyyy-MM-dd} to {endDate:yyyy-MM-dd}");
+            Log($"Retrieved {history.Count} weekly bars for {TickerSymbol} from {HistoryStartDate:yyyy-MM-dd} to {HistoryEndDate:yyyy-MM-dd}");
             Log("");
             
             // Table header with percentage columns
