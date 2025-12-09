@@ -1,0 +1,80 @@
+{
+    "ticker": "QQQ",
+    "analysisStartDate": "1999-03-15",
+    "analysisEndDate": "2025-12-09",
+    "numConsolidationTops": 8,
+    "consolidationData": [
+      {
+        "startDate": "2024-12-16",
+        "endDate": "2025-02-19",
+        "consolidationHeight": 39.75,
+        "consolidationPercent": 7.36,
+        "consolidationTopPrice": 539.38,
+        "consolidationBottomPrice": 499.63,
+        "days": 42
+      },
+      {
+        "startDate": "2024-03-04",
+        "endDate": "2024-04-12",
+        "consolidationHeight": 16.71,
+        "consolidationPercent": 3.71,
+        "consolidationTopPrice": 449.36,
+        "consolidationBottomPrice": 432.65,
+        "days": 28
+      },
+      {
+        "startDate": "2023-06-16",
+        "endDate": "2023-07-12",
+        "consolidationHeight": 15.29,
+        "consolidationPercent": 4.1,
+        "consolidationTopPrice": 372.72,
+        "consolidationBottomPrice": 357.43,
+        "days": 16
+      },
+      {
+        "startDate": "2021-11-05",
+        "endDate": "2022-01-03",
+        "consolidationHeight": 31.11,
+        "consolidationPercent": 7.61,
+        "consolidationTopPrice": 408.66,
+        "consolidationBottomPrice": 377.55,
+        "days": 39
+      },
+      {
+        "startDate": "2015-11-04",
+        "endDate": "2015-12-29",
+        "consolidationHeight": 6.43,
+        "consolidationPercent": 5.55,
+        "consolidationTopPrice": 115.77,
+        "consolidationBottomPrice": 109.34,
+        "days": 37
+      },
+      {
+        "startDate": "2011-02-18",
+        "endDate": "2011-07-26",
+        "consolidationHeight": 6.22,
+        "consolidationPercent": 10.39,
+        "consolidationTopPrice": 59.82,
+        "consolidationBottomPrice": 53.6,
+        "days": 108
+      },
+      {
+        "startDate": "2007-10-11",
+        "endDate": "2008-01-03",
+        "consolidationHeight": 6.46,
+        "consolidationPercent": 11.72,
+        "consolidationTopPrice": 55.08,
+        "consolidationBottomPrice": 48.62,
+        "days": 57
+      },
+      {
+        "startDate": "2006-01-13",
+        "endDate": "2006-05-08",
+        "consolidationHeight": 2.87,
+        "consolidationPercent": 6.66,
+        "consolidationTopPrice": 43.05,
+        "consolidationBottomPrice": 40.18,
+        "days": 78
+      }
+    ]
+}
