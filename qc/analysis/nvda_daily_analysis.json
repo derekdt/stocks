@@ -3,6 +3,7 @@
     "analysisStartDate": "2023-05-29",
     "analysisEndDate": "2025-12-01",
     "numDays": 629,
+    "totalDeltaThreshold": 20,
     "filteredDays": [],
     "dailyData": [
       {
@@ -39,7 +40,7 @@
         "openToHigh": 4.03,
         "openToLow": -0.42,
         "openToClose": 3.30,
-        "totalDelta": 4.28
+        "totalDelta": 4.47
       },
       {
         "date": "2023-06-02",
@@ -63,7 +64,7 @@
         "openToHigh": 1.74,
         "openToLow": -0.46,
         "openToClose": 0.72,
-        "totalDelta": 2.16
+        "totalDelta": 2.21
       },
       {
         "date": "2023-06-06",
@@ -99,7 +100,7 @@
         "openToHigh": 3.08,
         "openToLow": -0.52,
         "openToClose": 2.15,
-        "totalDelta": 3.50
+        "totalDelta": 3.62
       },
       {
         "date": "2023-06-09",
@@ -123,7 +124,7 @@
         "openToHigh": 0.84,
         "openToLow": -1.48,
         "openToClose": 0.72,
-        "totalDelta": 2.30
+        "totalDelta": 2.35
       },
       {
         "date": "2023-06-13",
@@ -135,7 +136,7 @@
         "openToHigh": 2.29,
         "openToLow": -1.09,
         "openToClose": 2.10,
-        "totalDelta": 3.31
+        "totalDelta": 3.42
       },
       {
         "date": "2023-06-14",
@@ -147,7 +148,7 @@
         "openToHigh": 5.30,
         "openToLow": -0.69,
         "openToClose": 5.30,
-        "totalDelta": 5.69
+        "totalDelta": 6.04
       },
       {
         "date": "2023-06-15",
@@ -159,7 +160,7 @@
         "openToHigh": 1.58,
         "openToLow": -1.10,
         "openToClose": 0.09,
-        "totalDelta": 2.64
+        "totalDelta": 2.71
       },
       {
         "date": "2023-06-16",
@@ -183,7 +184,7 @@
         "openToHigh": 2.33,
         "openToLow": -0.74,
         "openToClose": 1.90,
-        "totalDelta": 2.99
+        "totalDelta": 3.09
       },
       {
         "date": "2023-06-21",
@@ -207,7 +208,7 @@
         "openToHigh": 2.77,
         "openToLow": -0.05,
         "openToClose": 1.82,
-        "totalDelta": 2.75
+        "totalDelta": 2.82
       },
       {
         "date": "2023-06-23",
@@ -243,7 +244,7 @@
         "openToHigh": 2.75,
         "openToLow": -0.91,
         "openToClose": 2.59,
-        "totalDelta": 3.56
+        "totalDelta": 3.69
       },
       {
         "date": "2023-06-28",
@@ -255,7 +256,7 @@
         "openToHigh": 2.91,
         "openToLow": -0.35,
         "openToClose": 1.12,
-        "totalDelta": 3.17
+        "totalDelta": 3.27
       },
       {
         "date": "2023-06-29",
@@ -279,7 +280,7 @@
         "openToHigh": 2.12,
         "openToLow": -0.40,
         "openToClose": 1.52,
-        "totalDelta": 2.47
+        "totalDelta": 2.53
       },
       {
         "date": "2023-07-03",
@@ -303,7 +304,7 @@
         "openToHigh": 2.46,
         "openToLow": -0.14,
         "openToClose": 0.42,
-        "totalDelta": 2.54
+        "totalDelta": 2.60
       },
       {
         "date": "2023-07-06",
@@ -315,7 +316,7 @@
         "openToHigh": 0.84,
         "openToLow": -1.15,
         "openToClose": 0.66,
-        "totalDelta": 1.97
+        "totalDelta": 2.01
       },
       {
         "date": "2023-07-07",
@@ -327,7 +328,7 @@
         "openToHigh": 2.10,
         "openToLow": -0.33,
         "openToClose": 0.43,
-        "totalDelta": 2.39
+        "totalDelta": 2.44
       },
       {
         "date": "2023-07-10",
@@ -363,7 +364,7 @@
         "openToHigh": 2.17,
         "openToLow": -0.51,
         "openToClose": 2.10,
-        "totalDelta": 2.63
+        "totalDelta": 2.70
       },
       {
         "date": "2023-07-13",
@@ -375,7 +376,7 @@
         "openToHigh": 3.60,
         "openToLow": -0.14,
         "openToClose": 3.20,
-        "totalDelta": 3.60
+        "totalDelta": 3.74
       },
       {
         "date": "2023-07-14",
@@ -399,7 +400,7 @@
         "openToHigh": 0.46,
         "openToLow": -2.20,
         "openToClose": 0.39,
-        "totalDelta": 2.65
+        "totalDelta": 2.72
       },
       {
         "date": "2023-07-18",
@@ -411,7 +412,7 @@
         "openToHigh": 2.55,
         "openToLow": -2.07,
         "openToClose": 1.70,
-        "totalDelta": 4.50
+        "totalDelta": 4.71
       },
       {
         "date": "2023-07-19",
@@ -471,7 +472,7 @@
         "openToHigh": 2.77,
         "openToLow": -0.04,
         "openToClose": 1.64,
-        "totalDelta": 2.74
+        "totalDelta": 2.81
       },
       {
         "date": "2023-07-26",
@@ -507,7 +508,7 @@
         "openToHigh": 0.78,
         "openToLow": -0.60,
         "openToClose": 0.19,
-        "totalDelta": 1.37
+        "totalDelta": 1.39
       },
       {
         "date": "2023-07-31",
@@ -531,7 +532,7 @@
         "openToHigh": 0.96,
         "openToLow": -0.92,
         "openToClose": 0.11,
-        "totalDelta": 1.86
+        "totalDelta": 1.89
       },
       {
         "date": "2023-08-02",
@@ -555,7 +556,7 @@
         "openToHigh": 2.89,
         "openToLow": -0.12,
         "openToClose": 1.52,
-        "totalDelta": 2.93
+        "totalDelta": 3.02
       },
       {
         "date": "2023-08-04",
@@ -579,7 +580,7 @@
         "openToHigh": 0.98,
         "openToLow": -1.19,
         "openToClose": 0.70,
-        "totalDelta": 2.14
+        "totalDelta": 2.19
       },
       {
         "date": "2023-08-08",
@@ -615,7 +616,7 @@
         "openToHigh": 3.40,
         "openToLow": -0.72,
         "openToClose": 0.59,
-        "totalDelta": 3.99
+        "totalDelta": 4.16
       },
       {
         "date": "2023-08-11",
@@ -639,7 +640,7 @@
         "openToHigh": 8.15,
         "openToLow": -0.47,
         "openToClose": 8.03,
-        "totalDelta": 7.97
+        "totalDelta": 8.66
       },
       {
         "date": "2023-08-15",
@@ -687,7 +688,7 @@
         "openToHigh": 2.29,
         "openToLow": -2.21,
         "openToClose": 1.64,
-        "totalDelta": 4.40
+        "totalDelta": 4.60
       },
       {
         "date": "2023-08-21",
@@ -699,7 +700,7 @@
         "openToHigh": 5.77,
         "openToLow": -0.62,
         "openToClose": 5.55,
-        "totalDelta": 6.04
+        "totalDelta": 6.43
       },
       {
         "date": "2023-08-22",
@@ -723,7 +724,7 @@
         "openToHigh": 2.86,
         "openToLow": -1.48,
         "openToClose": 2.67,
-        "totalDelta": 4.22
+        "totalDelta": 4.41
       },
       {
         "date": "2023-08-24",
@@ -759,7 +760,7 @@
         "openToHigh": 1.09,
         "openToLow": -3.42,
         "openToClose": 0.77,
-        "totalDelta": 4.46
+        "totalDelta": 4.67
       },
       {
         "date": "2023-08-29",
@@ -771,7 +772,7 @@
         "openToHigh": 5.18,
         "openToLow": -0.59,
         "openToClose": 4.54,
-        "totalDelta": 5.48
+        "totalDelta": 5.79
       },
       {
         "date": "2023-08-30",
@@ -783,7 +784,7 @@
         "openToHigh": 1.80,
         "openToLow": -1.26,
         "openToClose": 0.45,
-        "totalDelta": 3.01
+        "totalDelta": 3.10
       },
       {
         "date": "2023-08-31",
@@ -819,7 +820,7 @@
         "openToHigh": 1.45,
         "openToLow": -0.75,
         "openToClose": 0.66,
-        "totalDelta": 2.17
+        "totalDelta": 2.22
       },
       {
         "date": "2023-09-06",
@@ -843,7 +844,7 @@
         "openToHigh": 1.97,
         "openToLow": -0.65,
         "openToClose": 1.74,
-        "totalDelta": 2.57
+        "totalDelta": 2.64
       },
       {
         "date": "2023-09-08",
@@ -879,7 +880,7 @@
         "openToHigh": 2.09,
         "openToLow": -0.46,
         "openToClose": 0.30,
-        "totalDelta": 2.50
+        "totalDelta": 2.56
       },
       {
         "date": "2023-09-13",
@@ -891,7 +892,7 @@
         "openToHigh": 3.01,
         "openToLow": -0.19,
         "openToClose": 2.01,
-        "totalDelta": 3.11
+        "totalDelta": 3.21
       },
       {
         "date": "2023-09-14",
@@ -927,7 +928,7 @@
         "openToHigh": 3.53,
         "openToLow": -1.72,
         "openToClose": 2.88,
-        "totalDelta": 5.07
+        "totalDelta": 5.34
       },
       {
         "date": "2023-09-19",
@@ -975,7 +976,7 @@
         "openToHigh": 1.30,
         "openToLow": -0.82,
         "openToClose": 0.09,
-        "totalDelta": 2.10
+        "totalDelta": 2.14
       },
       {
         "date": "2023-09-25",
@@ -987,7 +988,7 @@
         "openToHigh": 2.25,
         "openToLow": -1.01,
         "openToClose": 1.50,
-        "totalDelta": 3.19
+        "totalDelta": 3.29
       },
       {
         "date": "2023-09-26",
@@ -1011,7 +1012,7 @@
         "openToHigh": 1.27,
         "openToLow": -1.66,
         "openToClose": 0.32,
-        "totalDelta": 2.89
+        "totalDelta": 2.98
       },
       {
         "date": "2023-09-28",
@@ -1023,7 +1024,7 @@
         "openToHigh": 2.33,
         "openToLow": -0.82,
         "openToClose": 1.48,
-        "totalDelta": 3.07
+        "totalDelta": 3.17
       },
       {
         "date": "2023-09-29",
@@ -1047,7 +1048,7 @@
         "openToHigh": 2.59,
         "openToLow": -0.40,
         "openToClose": 1.70,
-        "totalDelta": 2.91
+        "totalDelta": 3.00
       },
       {
         "date": "2023-10-03",
@@ -1071,7 +1072,7 @@
         "openToHigh": 0.99,
         "openToLow": -0.95,
         "openToClose": 0.76,
-        "totalDelta": 1.93
+        "totalDelta": 1.96
       },
       {
         "date": "2023-10-05",
@@ -1083,7 +1084,7 @@
         "openToHigh": 1.98,
         "openToLow": -0.32,
         "openToClose": 1.49,
-        "totalDelta": 2.26
+        "totalDelta": 2.31
       },
       {
         "date": "2023-10-06",
@@ -1095,7 +1096,7 @@
         "openToHigh": 3.62,
         "openToLow": -0.37,
         "openToClose": 3.56,
-        "totalDelta": 3.85
+        "totalDelta": 4.00
       },
       {
         "date": "2023-10-09",
@@ -1107,7 +1108,7 @@
         "openToHigh": 1.71,
         "openToLow": -1.05,
         "openToClose": 0.97,
-        "totalDelta": 2.71
+        "totalDelta": 2.79
       },
       {
         "date": "2023-10-10",
@@ -1119,7 +1120,7 @@
         "openToHigh": 2.09,
         "openToLow": -0.49,
         "openToClose": 1.08,
-        "totalDelta": 2.53
+        "totalDelta": 2.60
       },
       {
         "date": "2023-10-11",
@@ -1131,7 +1132,7 @@
         "openToHigh": 1.44,
         "openToLow": -0.32,
         "openToClose": 1.32,
-        "totalDelta": 1.73
+        "totalDelta": 1.76
       },
       {
         "date": "2023-10-12",
@@ -1143,7 +1144,7 @@
         "openToHigh": 1.74,
         "openToLow": -0.99,
         "openToClose": 0.32,
-        "totalDelta": 2.68
+        "totalDelta": 2.75
       },
       {
         "date": "2023-10-13",
@@ -1167,7 +1168,7 @@
         "openToHigh": 2.61,
         "openToLow": -0.30,
         "openToClose": 2.32,
-        "totalDelta": 2.84
+        "totalDelta": 2.92
       },
       {
         "date": "2023-10-17",
@@ -1227,7 +1228,7 @@
         "openToHigh": 4.89,
         "openToLow": -0.69,
         "openToClose": 4.23,
-        "totalDelta": 5.33
+        "totalDelta": 5.62
       },
       {
         "date": "2023-10-24",
@@ -1239,7 +1240,7 @@
         "openToHigh": 1.46,
         "openToLow": -0.87,
         "openToClose": 1.38,
-        "totalDelta": 2.30
+        "totalDelta": 2.36
       },
       {
         "date": "2023-10-25",
@@ -1287,7 +1288,7 @@
         "openToHigh": 1.74,
         "openToLow": -1.40,
         "openToClose": 0.26,
-        "totalDelta": 3.08
+        "totalDelta": 3.18
       },
       {
         "date": "2023-10-31",
@@ -1299,7 +1300,7 @@
         "openToHigh": 1.09,
         "openToLow": -2.98,
         "openToClose": 0.85,
-        "totalDelta": 4.03
+        "totalDelta": 4.20
       },
       {
         "date": "2023-11-01",
@@ -1311,7 +1312,7 @@
         "openToHigh": 3.65,
         "openToLow": -0.02,
         "openToClose": 3.51,
-        "totalDelta": 3.54
+        "totalDelta": 3.67
       },
       {
         "date": "2023-11-02",
@@ -1323,7 +1324,7 @@
         "openToHigh": 1.18,
         "openToLow": -1.10,
         "openToClose": 0.30,
-        "totalDelta": 2.25
+        "totalDelta": 2.31
       },
       {
         "date": "2023-11-03",
@@ -1335,7 +1336,7 @@
         "openToHigh": 2.98,
         "openToLow": -0.63,
         "openToClose": 2.28,
-        "totalDelta": 3.51
+        "totalDelta": 3.63
       },
       {
         "date": "2023-11-06",
@@ -1347,7 +1348,7 @@
         "openToHigh": 1.41,
         "openToLow": -0.88,
         "openToClose": 1.00,
-        "totalDelta": 2.26
+        "totalDelta": 2.31
       },
       {
         "date": "2023-11-07",
@@ -1359,7 +1360,7 @@
         "openToHigh": 1.08,
         "openToLow": -1.24,
         "openToClose": 0.50,
-        "totalDelta": 2.29
+        "totalDelta": 2.35
       },
       {
         "date": "2023-11-08",
@@ -1371,7 +1372,7 @@
         "openToHigh": 1.68,
         "openToLow": -0.27,
         "openToClose": 1.05,
-        "totalDelta": 1.92
+        "totalDelta": 1.96
       },
       {
         "date": "2023-11-09",
@@ -1395,7 +1396,7 @@
         "openToHigh": 2.05,
         "openToLow": -0.45,
         "openToClose": 1.76,
-        "totalDelta": 2.44
+        "totalDelta": 2.50
       },
       {
         "date": "2023-11-13",
@@ -1407,7 +1408,7 @@
         "openToHigh": 1.58,
         "openToLow": -0.53,
         "openToClose": 0.56,
-        "totalDelta": 2.07
+        "totalDelta": 2.12
       },
       {
         "date": "2023-11-14",
@@ -1443,7 +1444,7 @@
         "openToHigh": 1.74,
         "openToLow": -0.71,
         "openToClose": 1.65,
-        "totalDelta": 2.41
+        "totalDelta": 2.47
       },
       {
         "date": "2023-11-17",
@@ -1467,7 +1468,7 @@
         "openToHigh": 2.48,
         "openToLow": -0.29,
         "openToClose": 2.20,
-        "totalDelta": 2.70
+        "totalDelta": 2.78
       },
       {
         "date": "2023-11-21",
@@ -1515,7 +1516,7 @@
         "openToHigh": 1.53,
         "openToLow": -0.31,
         "openToClose": 0.92,
-        "totalDelta": 1.81
+        "totalDelta": 1.84
       },
       {
         "date": "2023-11-28",
@@ -1563,7 +1564,7 @@
         "openToHigh": 1.51,
         "openToLow": -0.67,
         "openToClose": 0.57,
-        "totalDelta": 2.15
+        "totalDelta": 2.19
       },
       {
         "date": "2023-12-04",
@@ -1587,7 +1588,7 @@
         "openToHigh": 2.49,
         "openToLow": -0.43,
         "openToClose": 2.42,
-        "totalDelta": 2.85
+        "totalDelta": 2.94
       },
       {
         "date": "2023-12-06",
@@ -1611,7 +1612,7 @@
         "openToHigh": 2.04,
         "openToLow": -0.22,
         "openToClose": 1.96,
-        "totalDelta": 2.21
+        "totalDelta": 2.26
       },
       {
         "date": "2023-12-08",
@@ -1623,7 +1624,7 @@
         "openToHigh": 2.46,
         "openToLow": -0.10,
         "openToClose": 1.95,
-        "totalDelta": 2.49
+        "totalDelta": 2.56
       },
       {
         "date": "2023-12-11",
@@ -1647,7 +1648,7 @@
         "openToHigh": 3.52,
         "openToLow": 0.00,
         "openToClose": 3.50,
-        "totalDelta": 3.40
+        "totalDelta": 3.52
       },
       {
         "date": "2023-12-13",
@@ -1659,7 +1660,7 @@
         "openToHigh": 2.03,
         "openToLow": -0.04,
         "openToClose": 0.96,
-        "totalDelta": 2.03
+        "totalDelta": 2.07
       },
       {
         "date": "2023-12-14",
@@ -1683,7 +1684,7 @@
         "openToHigh": 2.52,
         "openToLow": -0.14,
         "openToClose": 1.46,
-        "totalDelta": 2.60
+        "totalDelta": 2.67
       },
       {
         "date": "2023-12-18",
@@ -1695,7 +1696,7 @@
         "openToHigh": 2.09,
         "openToLow": -0.51,
         "openToClose": 1.37,
-        "totalDelta": 2.54
+        "totalDelta": 2.61
       },
       {
         "date": "2023-12-19",
@@ -1707,7 +1708,7 @@
         "openToHigh": 0.56,
         "openToLow": -1.07,
         "openToClose": 0.36,
-        "totalDelta": 1.63
+        "totalDelta": 1.65
       },
       {
         "date": "2023-12-20",
@@ -1731,7 +1732,7 @@
         "openToHigh": 0.59,
         "openToLow": -0.80,
         "openToClose": 0.37,
-        "totalDelta": 1.37
+        "totalDelta": 1.39
       },
       {
         "date": "2023-12-22",
@@ -1755,7 +1756,7 @@
         "openToHigh": 1.29,
         "openToLow": -0.04,
         "openToClose": 0.64,
-        "totalDelta": 1.31
+        "totalDelta": 1.33
       },
       {
         "date": "2023-12-27",
@@ -1815,7 +1816,7 @@
         "openToHigh": 1.49,
         "openToLow": -0.34,
         "openToClose": 0.19,
-        "totalDelta": 1.80
+        "totalDelta": 1.83
       },
       {
         "date": "2024-01-04",
@@ -1827,7 +1828,7 @@
         "openToHigh": 1.53,
         "openToLow": -0.54,
         "openToClose": 0.48,
-        "totalDelta": 2.04
+        "totalDelta": 2.09
       },
       {
         "date": "2024-01-05",
@@ -1839,7 +1840,7 @@
         "openToHigh": 2.24,
         "openToLow": -0.30,
         "openToClose": 1.31,
-        "totalDelta": 2.48
+        "totalDelta": 2.55
       },
       {
         "date": "2024-01-08",
@@ -1851,7 +1852,7 @@
         "openToHigh": 5.60,
         "openToLow": -0.05,
         "openToClose": 5.56,
-        "totalDelta": 5.35
+        "totalDelta": 5.65
       },
       {
         "date": "2024-01-09",
@@ -1863,7 +1864,7 @@
         "openToHigh": 3.67,
         "openToLow": -1.35,
         "openToClose": 1.41,
-        "totalDelta": 4.85
+        "totalDelta": 5.10
       },
       {
         "date": "2024-01-10",
@@ -1875,7 +1876,7 @@
         "openToHigh": 1.86,
         "openToLow": -0.21,
         "openToClose": 1.39,
-        "totalDelta": 2.03
+        "totalDelta": 2.08
       },
       {
         "date": "2024-01-11",
@@ -1899,7 +1900,7 @@
         "openToHigh": 0.68,
         "openToLow": -0.49,
         "openToClose": 0.20,
-        "totalDelta": 1.16
+        "totalDelta": 1.17
       },
       {
         "date": "2024-01-16",
@@ -1911,7 +1912,7 @@
         "openToHigh": 3.34,
         "openToLow": -0.18,
         "openToClose": 2.51,
-        "totalDelta": 3.40
+        "totalDelta": 3.52
       },
       {
         "date": "2024-01-17",
@@ -1947,7 +1948,7 @@
         "openToHigh": 2.59,
         "openToLow": -1.34,
         "openToClose": 2.57,
-        "totalDelta": 3.82
+        "totalDelta": 3.98
       },
       {
         "date": "2024-01-22",
@@ -1971,7 +1972,7 @@
         "openToHigh": 0.64,
         "openToLow": -1.59,
         "openToClose": 0.58,
-        "totalDelta": 2.21
+        "totalDelta": 2.26
       },
       {
         "date": "2024-01-24",
@@ -1983,7 +1984,7 @@
         "openToHigh": 4.22,
         "openToLow": -0.60,
         "openToClose": 1.76,
-        "totalDelta": 4.63
+        "totalDelta": 4.85
       },
       {
         "date": "2024-01-25",
@@ -2007,7 +2008,7 @@
         "openToHigh": 1.37,
         "openToLow": -0.62,
         "openToClose": 0.13,
-        "totalDelta": 1.96
+        "totalDelta": 2.00
       },
       {
         "date": "2024-01-29",
@@ -2019,7 +2020,7 @@
         "openToHigh": 2.09,
         "openToLow": -0.49,
         "openToClose": 2.05,
-        "totalDelta": 2.53
+        "totalDelta": 2.60
       },
       {
         "date": "2024-01-30",
@@ -2043,7 +2044,7 @@
         "openToHigh": 1.50,
         "openToLow": -1.06,
         "openToClose": 0.29,
-        "totalDelta": 2.52
+        "totalDelta": 2.58
       },
       {
         "date": "2024-02-01",
@@ -2055,7 +2056,7 @@
         "openToHigh": 1.76,
         "openToLow": -0.72,
         "openToClose": 1.49,
-        "totalDelta": 2.44
+        "totalDelta": 2.50
       },
       {
         "date": "2024-02-02",
@@ -2067,7 +2068,7 @@
         "openToHigh": 4.09,
         "openToLow": -0.46,
         "openToClose": 3.40,
-        "totalDelta": 4.37
+        "totalDelta": 4.57
       },
       {
         "date": "2024-02-05",
@@ -2079,7 +2080,7 @@
         "openToHigh": 1.83,
         "openToLow": -1.54,
         "openToClose": 1.59,
-        "totalDelta": 3.30
+        "totalDelta": 3.42
       },
       {
         "date": "2024-02-06",
@@ -2103,7 +2104,7 @@
         "openToHigh": 2.75,
         "openToLow": -1.08,
         "openToClose": 2.57,
-        "totalDelta": 3.73
+        "totalDelta": 3.88
       },
       {
         "date": "2024-02-08",
@@ -2127,7 +2128,7 @@
         "openToHigh": 2.37,
         "openToLow": -0.42,
         "openToClose": 2.30,
-        "totalDelta": 2.73
+        "totalDelta": 2.81
       },
       {
         "date": "2024-02-12",
@@ -2151,7 +2152,7 @@
         "openToHigh": 4.33,
         "openToLow": -1.11,
         "openToClose": 2.45,
-        "totalDelta": 5.22
+        "totalDelta": 5.50
       },
       {
         "date": "2024-02-14",
@@ -2163,7 +2164,7 @@
         "openToHigh": 1.39,
         "openToLow": -1.75,
         "openToClose": 0.93,
-        "totalDelta": 3.10
+        "totalDelta": 3.19
       },
       {
         "date": "2024-02-15",
@@ -2223,7 +2224,7 @@
         "openToHigh": 4.74,
         "openToLow": -1.07,
         "openToClose": 4.69,
-        "totalDelta": 5.54
+        "totalDelta": 5.87
       },
       {
         "date": "2024-02-23",
@@ -2271,7 +2272,7 @@
         "openToHigh": 1.69,
         "openToLow": -0.64,
         "openToClose": 0.06,
-        "totalDelta": 2.29
+        "totalDelta": 2.34
       },
       {
         "date": "2024-02-29",
@@ -2283,7 +2284,7 @@
         "openToHigh": 1.18,
         "openToLow": -0.90,
         "openToClose": 0.07,
-        "totalDelta": 2.05
+        "totalDelta": 2.09
       },
       {
         "date": "2024-03-01",
@@ -2295,7 +2296,7 @@
         "openToHigh": 2.83,
         "openToLow": -0.74,
         "openToClose": 2.81,
-        "totalDelta": 3.48
+        "totalDelta": 3.60
       },
       {
         "date": "2024-03-04",
@@ -2307,7 +2308,7 @@
         "openToHigh": 4.20,
         "openToLow": -0.52,
         "openToClose": 1.28,
-        "totalDelta": 4.53
+        "totalDelta": 4.75
       },
       {
         "date": "2024-03-05",
@@ -2319,7 +2320,7 @@
         "openToHigh": 1.01,
         "openToLow": -2.13,
         "openToClose": 0.85,
-        "totalDelta": 3.11
+        "totalDelta": 3.21
       },
       {
         "date": "2024-03-06",
@@ -2331,7 +2332,7 @@
         "openToHigh": 1.96,
         "openToLow": -1.10,
         "openToClose": 0.80,
-        "totalDelta": 3.00
+        "totalDelta": 3.10
       },
       {
         "date": "2024-03-07",
@@ -2343,7 +2344,7 @@
         "openToHigh": 2.94,
         "openToLow": -0.58,
         "openToClose": 2.82,
-        "totalDelta": 3.42
+        "totalDelta": 3.54
       },
       {
         "date": "2024-03-08",
@@ -2379,7 +2380,7 @@
         "openToHigh": 4.44,
         "openToLow": -2.15,
         "openToClose": 4.38,
-        "totalDelta": 6.31
+        "totalDelta": 6.73
       },
       {
         "date": "2024-03-13",
@@ -2415,7 +2416,7 @@
         "openToHigh": 3.26,
         "openToLow": -0.54,
         "openToClose": 1.29,
-        "totalDelta": 3.68
+        "totalDelta": 3.82
       },
       {
         "date": "2024-03-18",
@@ -2439,7 +2440,7 @@
         "openToHigh": 4.56,
         "openToLow": -1.84,
         "openToClose": 3.23,
-        "totalDelta": 6.11
+        "totalDelta": 6.51
       },
       {
         "date": "2024-03-20",
@@ -2451,7 +2452,7 @@
         "openToHigh": 0.60,
         "openToLow": -1.84,
         "openToClose": 0.56,
-        "totalDelta": 2.42
+        "totalDelta": 2.48
       },
       {
         "date": "2024-03-21",
@@ -2475,7 +2476,7 @@
         "openToHigh": 3.97,
         "openToLow": -0.36,
         "openToClose": 3.43,
-        "totalDelta": 4.16
+        "totalDelta": 4.34
       },
       {
         "date": "2024-03-25",
@@ -2487,7 +2488,7 @@
         "openToHigh": 2.94,
         "openToLow": -0.53,
         "openToClose": 1.07,
-        "totalDelta": 3.37
+        "totalDelta": 3.48
       },
       {
         "date": "2024-03-26",
@@ -2523,7 +2524,7 @@
         "openToHigh": 1.45,
         "openToLow": -0.89,
         "openToClose": 0.40,
-        "totalDelta": 2.30
+        "totalDelta": 2.36
       },
       {
         "date": "2024-04-01",
@@ -2535,7 +2536,7 @@
         "openToHigh": 2.19,
         "openToLow": -1.16,
         "openToClose": 0.13,
-        "totalDelta": 3.28
+        "totalDelta": 3.39
       },
       {
         "date": "2024-04-02",
@@ -2547,7 +2548,7 @@
         "openToHigh": 1.82,
         "openToLow": -0.98,
         "openToClose": 1.09,
-        "totalDelta": 2.75
+        "totalDelta": 2.82
       },
       {
         "date": "2024-04-03",
@@ -2559,7 +2560,7 @@
         "openToHigh": 2.20,
         "openToLow": -0.03,
         "openToClose": 0.61,
-        "totalDelta": 2.18
+        "totalDelta": 2.23
       },
       {
         "date": "2024-04-04",
@@ -2583,7 +2584,7 @@
         "openToHigh": 1.82,
         "openToLow": -1.12,
         "openToClose": 1.28,
-        "totalDelta": 2.89
+        "totalDelta": 2.97
       },
       {
         "date": "2024-04-08",
@@ -2619,7 +2620,7 @@
         "openToHigh": 4.11,
         "openToLow": -0.28,
         "openToClose": 3.68,
-        "totalDelta": 4.22
+        "totalDelta": 4.41
       },
       {
         "date": "2024-04-11",
@@ -2631,7 +2632,7 @@
         "openToHigh": 3.83,
         "openToLow": -0.54,
         "openToClose": 3.69,
-        "totalDelta": 4.21
+        "totalDelta": 4.40
       },
       {
         "date": "2024-04-12",
@@ -2667,7 +2668,7 @@
         "openToHigh": 1.87,
         "openToLow": -0.50,
         "openToClose": 1.06,
-        "totalDelta": 2.33
+        "totalDelta": 2.38
       },
       {
         "date": "2024-04-17",
@@ -2715,7 +2716,7 @@
         "openToHigh": 2.51,
         "openToLow": -2.19,
         "openToClose": 1.80,
-        "totalDelta": 4.59
+        "totalDelta": 4.81
       },
       {
         "date": "2024-04-23",
@@ -2727,7 +2728,7 @@
         "openToHigh": 2.44,
         "openToLow": -0.66,
         "openToClose": 2.01,
-        "totalDelta": 3.03
+        "totalDelta": 3.12
       },
       {
         "date": "2024-04-24",
@@ -2751,7 +2752,7 @@
         "openToHigh": 5.51,
         "openToLow": -0.95,
         "openToClose": 4.64,
-        "totalDelta": 6.12
+        "totalDelta": 6.52
       },
       {
         "date": "2024-04-26",
@@ -2763,7 +2764,7 @@
         "openToHigh": 5.35,
         "openToLow": -0.54,
         "openToClose": 4.64,
-        "totalDelta": 5.59
+        "totalDelta": 5.93
       },
       {
         "date": "2024-04-29",
@@ -2775,7 +2776,7 @@
         "openToHigh": 0.45,
         "openToLow": -2.65,
         "openToClose": 0.18,
-        "totalDelta": 3.09
+        "totalDelta": 3.19
       },
       {
         "date": "2024-04-30",
@@ -2811,7 +2812,7 @@
         "openToHigh": 2.12,
         "openToLow": -1.48,
         "openToClose": 1.62,
-        "totalDelta": 3.52
+        "totalDelta": 3.65
       },
       {
         "date": "2024-05-03",
@@ -2823,7 +2824,7 @@
         "openToHigh": 1.81,
         "openToLow": -0.75,
         "openToClose": 1.25,
-        "totalDelta": 2.51
+        "totalDelta": 2.57
       },
       {
         "date": "2024-05-06",
@@ -2835,7 +2836,7 @@
         "openToHigh": 3.16,
         "openToLow": -0.38,
         "openToClose": 3.08,
-        "totalDelta": 3.43
+        "totalDelta": 3.56
       },
       {
         "date": "2024-05-07",
@@ -2859,7 +2860,7 @@
         "openToHigh": 1.89,
         "openToLow": -0.09,
         "openToClose": 1.02,
-        "totalDelta": 1.94
+        "totalDelta": 1.98
       },
       {
         "date": "2024-05-09",
@@ -2907,7 +2908,7 @@
         "openToHigh": 2.33,
         "openToLow": -0.70,
         "openToClose": 2.00,
-        "totalDelta": 2.96
+        "totalDelta": 3.06
       },
       {
         "date": "2024-05-15",
@@ -2919,7 +2920,7 @@
         "openToHigh": 2.55,
         "openToLow": -0.97,
         "openToClose": 2.30,
-        "totalDelta": 3.44
+        "totalDelta": 3.56
       },
       {
         "date": "2024-05-16",
@@ -2955,7 +2956,7 @@
         "openToHigh": 1.55,
         "openToLow": -0.33,
         "openToClose": 1.10,
-        "totalDelta": 1.85
+        "totalDelta": 1.89
       },
       {
         "date": "2024-05-21",
@@ -2967,7 +2968,7 @@
         "openToHigh": 2.03,
         "openToLow": -0.34,
         "openToClose": 2.02,
-        "totalDelta": 2.33
+        "totalDelta": 2.38
       },
       {
         "date": "2024-05-22",
@@ -2991,7 +2992,7 @@
         "openToHigh": 4.23,
         "openToLow": -0.47,
         "openToClose": 1.76,
-        "totalDelta": 4.51
+        "totalDelta": 4.73
       },
       {
         "date": "2024-05-24",
@@ -3003,7 +3004,7 @@
         "openToHigh": 2.01,
         "openToLow": -1.34,
         "openToClose": 1.99,
-        "totalDelta": 3.28
+        "totalDelta": 3.39
       },
       {
         "date": "2024-05-28",
@@ -3015,7 +3016,7 @@
         "openToHigh": 4.22,
         "openToLow": -0.37,
         "openToClose": 3.28,
-        "totalDelta": 4.41
+        "totalDelta": 4.61
       },
       {
         "date": "2024-05-29",
@@ -3027,7 +3028,7 @@
         "openToHigh": 2.19,
         "openToLow": -1.88,
         "openToClose": 1.59,
-        "totalDelta": 3.98
+        "totalDelta": 4.14
       },
       {
         "date": "2024-05-30",
@@ -3063,7 +3064,7 @@
         "openToHigh": 1.10,
         "openToLow": -1.53,
         "openToClose": 1.10,
-        "totalDelta": 2.61
+        "totalDelta": 2.68
       },
       {
         "date": "2024-06-04",
@@ -3075,7 +3076,7 @@
         "openToHigh": 0.77,
         "openToLow": -1.44,
         "openToClose": 0.62,
-        "totalDelta": 2.19
+        "totalDelta": 2.24
       },
       {
         "date": "2024-06-05",
@@ -3087,7 +3088,7 @@
         "openToHigh": 3.44,
         "openToLow": -0.77,
         "openToClose": 3.43,
-        "totalDelta": 4.07
+        "totalDelta": 4.24
       },
       {
         "date": "2024-06-06",
@@ -3111,7 +3112,7 @@
         "openToHigh": 1.59,
         "openToLow": -1.48,
         "openToClose": 0.92,
-        "totalDelta": 3.02
+        "totalDelta": 3.12
       },
       {
         "date": "2024-06-10",
@@ -3123,7 +3124,7 @@
         "openToHigh": 2.20,
         "openToLow": -2.86,
         "openToClose": 1.11,
-        "totalDelta": 4.95
+        "totalDelta": 5.20
       },
       {
         "date": "2024-06-11",
@@ -3147,7 +3148,7 @@
         "openToHigh": 3.11,
         "openToLow": -0.39,
         "openToClose": 1.75,
-        "totalDelta": 3.40
+        "totalDelta": 3.52
       },
       {
         "date": "2024-06-13",
@@ -3159,7 +3160,7 @@
         "openToHigh": 0.34,
         "openToLow": -1.70,
         "openToClose": 0.19,
-        "totalDelta": 2.03
+        "totalDelta": 2.08
       },
       {
         "date": "2024-06-14",
@@ -3171,7 +3172,7 @@
         "openToHigh": 2.18,
         "openToLow": -1.29,
         "openToClose": 1.45,
-        "totalDelta": 3.40
+        "totalDelta": 3.52
       },
       {
         "date": "2024-06-17",
@@ -3195,7 +3196,7 @@
         "openToHigh": 3.88,
         "openToLow": -0.42,
         "openToClose": 3.31,
-        "totalDelta": 4.14
+        "totalDelta": 4.32
       },
       {
         "date": "2024-06-20",
@@ -3243,7 +3244,7 @@
         "openToHigh": 4.55,
         "openToLow": -1.39,
         "openToClose": 4.21,
-        "totalDelta": 5.68
+        "totalDelta": 6.02
       },
       {
         "date": "2024-06-26",
@@ -3255,7 +3256,7 @@
         "openToHigh": 1.60,
         "openToLow": -2.78,
         "openToClose": 0.24,
-        "totalDelta": 4.31
+        "totalDelta": 4.50
       },
       {
         "date": "2024-06-27",
@@ -3291,7 +3292,7 @@
         "openToHigh": 1.05,
         "openToLow": -3.81,
         "openToClose": 0.62,
-        "totalDelta": 4.81
+        "totalDelta": 5.06
       },
       {
         "date": "2024-07-02",
@@ -3303,7 +3304,7 @@
         "openToHigh": 1.97,
         "openToLow": 0.0,
         "openToClose": 1.36,
-        "totalDelta": 1.93
+        "totalDelta": 1.97
       },
       {
         "date": "2024-07-03",
@@ -3315,7 +3316,7 @@
         "openToHigh": 5.50,
         "openToLow": -0.20,
         "openToClose": 5.49,
-        "totalDelta": 5.40
+        "totalDelta": 5.71
       },
       {
         "date": "2024-07-05",
@@ -3339,7 +3340,7 @@
         "openToHigh": 2.54,
         "openToLow": -0.38,
         "openToClose": 0.53,
-        "totalDelta": 2.85
+        "totalDelta": 2.94
       },
       {
         "date": "2024-07-09",
@@ -3351,7 +3352,7 @@
         "openToHigh": 2.69,
         "openToLow": -1.27,
         "openToClose": 0.82,
-        "totalDelta": 3.86
+        "totalDelta": 4.02
       },
       {
         "date": "2024-07-10",
@@ -3363,7 +3364,7 @@
         "openToHigh": 0.82,
         "openToLow": -1.17,
         "openToClose": 0.68,
-        "totalDelta": 1.98
+        "totalDelta": 2.02
       },
       {
         "date": "2024-07-11",
@@ -3387,7 +3388,7 @@
         "openToHigh": 2.90,
         "openToLow": -0.76,
         "openToClose": 0.81,
-        "totalDelta": 3.56
+        "totalDelta": 3.69
       },
       {
         "date": "2024-07-15",
@@ -3459,7 +3460,7 @@
         "openToHigh": 3.17,
         "openToLow": -0.34,
         "openToClose": 2.73,
-        "totalDelta": 3.40
+        "totalDelta": 3.52
       },
       {
         "date": "2024-07-23",
@@ -3543,7 +3544,7 @@
         "openToHigh": 4.73,
         "openToLow": -1.88,
         "openToClose": 3.56,
-        "totalDelta": 6.30
+        "totalDelta": 6.73
       },
       {
         "date": "2024-08-01",
@@ -3567,7 +3568,7 @@
         "openToHigh": 4.81,
         "openToLow": -2.28,
         "openToClose": 3.41,
-        "totalDelta": 6.76
+        "totalDelta": 7.25
       },
       {
         "date": "2024-08-05",
@@ -3579,7 +3580,7 @@
         "openToHigh": 12.39,
         "openToLow": -1.42,
         "openToClose": 9.18,
-        "totalDelta": 12.29
+        "totalDelta": 14.01
       },
       {
         "date": "2024-08-06",
@@ -3591,7 +3592,7 @@
         "openToHigh": 3.66,
         "openToLow": -3.23,
         "openToClose": 0.33,
-        "totalDelta": 6.65
+        "totalDelta": 7.12
       },
       {
         "date": "2024-08-07",
@@ -3615,7 +3616,7 @@
         "openToHigh": 3.42,
         "openToLow": -4.40,
         "openToClose": 2.90,
-        "totalDelta": 7.56
+        "totalDelta": 8.18
       },
       {
         "date": "2024-08-09",
@@ -3639,7 +3640,7 @@
         "openToHigh": 4.49,
         "openToLow": -0.04,
         "openToClose": 2.56,
-        "totalDelta": 4.33
+        "totalDelta": 4.53
       },
       {
         "date": "2024-08-13",
@@ -3651,7 +3652,7 @@
         "openToHigh": 3.41,
         "openToLow": -0.73,
         "openToClose": 3.33,
-        "totalDelta": 4.00
+        "totalDelta": 4.17
       },
       {
         "date": "2024-08-14",
@@ -3675,7 +3676,7 @@
         "openToHigh": 3.62,
         "openToLow": -1.23,
         "openToClose": 3.30,
-        "totalDelta": 4.68
+        "totalDelta": 4.91
       },
       {
         "date": "2024-08-16",
@@ -3687,7 +3688,7 @@
         "openToHigh": 2.49,
         "openToLow": -0.64,
         "openToClose": 2.15,
-        "totalDelta": 3.06
+        "totalDelta": 3.15
       },
       {
         "date": "2024-08-19",
@@ -3699,7 +3700,7 @@
         "openToHigh": 4.64,
         "openToLow": -0.67,
         "openToClose": 4.64,
-        "totalDelta": 5.07
+        "totalDelta": 5.34
       },
       {
         "date": "2024-08-20",
@@ -3723,7 +3724,7 @@
         "openToHigh": 1.61,
         "openToLow": -0.50,
         "openToClose": 0.94,
-        "totalDelta": 2.08
+        "totalDelta": 2.12
       },
       {
         "date": "2024-08-22",
@@ -3747,7 +3748,7 @@
         "openToHigh": 2.98,
         "openToLow": -0.49,
         "openToClose": 2.80,
-        "totalDelta": 3.37
+        "totalDelta": 3.49
       },
       {
         "date": "2024-08-26",
@@ -3771,7 +3772,7 @@
         "openToHigh": 3.36,
         "openToLow": -0.90,
         "openToClose": 2.64,
-        "totalDelta": 4.11
+        "totalDelta": 4.29
       },
       {
         "date": "2024-08-28",
@@ -3831,7 +3832,7 @@
         "openToHigh": 4.55,
         "openToLow": -1.03,
         "openToClose": 0.96,
-        "totalDelta": 5.34
+        "totalDelta": 5.64
       },
       {
         "date": "2024-09-05",
@@ -3843,7 +3844,7 @@
         "openToHigh": 4.42,
         "openToLow": -0.23,
         "openToClose": 2.10,
-        "totalDelta": 4.46
+        "totalDelta": 4.66
       },
       {
         "date": "2024-09-06",
@@ -3867,7 +3868,7 @@
         "openToHigh": 1.50,
         "openToLow": -1.23,
         "openToClose": 1.42,
-        "totalDelta": 2.68
+        "totalDelta": 2.76
       },
       {
         "date": "2024-09-10",
@@ -3879,7 +3880,7 @@
         "openToHigh": 1.49,
         "openToLow": -2.63,
         "openToClose": 0.29,
-        "totalDelta": 4.07
+        "totalDelta": 4.24
       },
       {
         "date": "2024-09-11",
@@ -3891,7 +3892,7 @@
         "openToHigh": 7.11,
         "openToLow": -1.82,
         "openToClose": 6.85,
-        "totalDelta": 8.34
+        "totalDelta": 9.10
       },
       {
         "date": "2024-09-12",
@@ -3903,7 +3904,7 @@
         "openToHigh": 3.33,
         "openToLow": -1.30,
         "openToClose": 1.92,
-        "totalDelta": 4.48
+        "totalDelta": 4.69
       },
       {
         "date": "2024-09-13",
@@ -3915,7 +3916,7 @@
         "openToHigh": 0.76,
         "openToLow": -1.21,
         "openToClose": 0.05,
-        "totalDelta": 1.96
+        "totalDelta": 2.00
       },
       {
         "date": "2024-09-16",
@@ -3963,7 +3964,7 @@
         "openToHigh": 2.01,
         "openToLow": -0.05,
         "openToClose": 0.48,
-        "totalDelta": 2.02
+        "totalDelta": 2.06
       },
       {
         "date": "2024-09-20",
@@ -3999,7 +4000,7 @@
         "openToHigh": 4.64,
         "openToLow": -0.88,
         "openToClose": 3.84,
-        "totalDelta": 5.27
+        "totalDelta": 5.56
       },
       {
         "date": "2024-09-25",
@@ -4011,7 +4012,7 @@
         "openToHigh": 2.41,
         "openToLow": -0.32,
         "openToClose": 1.24,
-        "totalDelta": 2.67
+        "totalDelta": 2.74
       },
       {
         "date": "2024-09-26",
@@ -4047,7 +4048,7 @@
         "openToHigh": 2.67,
         "openToLow": -0.22,
         "openToClose": 2.62,
-        "totalDelta": 2.81
+        "totalDelta": 2.90
       },
       {
         "date": "2024-10-01",
@@ -4071,7 +4072,7 @@
         "openToHigh": 2.54,
         "openToLow": -1.10,
         "openToClose": 2.09,
-        "totalDelta": 3.55
+        "totalDelta": 3.68
       },
       {
         "date": "2024-10-03",
@@ -4083,7 +4084,7 @@
         "openToHigh": 2.87,
         "openToLow": -0.45,
         "openToClose": 1.62,
-        "totalDelta": 3.22
+        "totalDelta": 3.33
       },
       {
         "date": "2024-10-04",
@@ -4107,7 +4108,7 @@
         "openToHigh": 4.50,
         "openToLow": -0.05,
         "openToClose": 2.18,
-        "totalDelta": 4.36
+        "totalDelta": 4.55
       },
       {
         "date": "2024-10-08",
@@ -4119,7 +4120,7 @@
         "openToHigh": 2.53,
         "openToLow": -0.59,
         "openToClose": 2.07,
-        "totalDelta": 3.04
+        "totalDelta": 3.14
       },
       {
         "date": "2024-10-09",
@@ -4143,7 +4144,7 @@
         "openToHigh": 2.27,
         "openToLow": -0.76,
         "openToClose": 2.13,
-        "totalDelta": 2.96
+        "totalDelta": 3.05
       },
       {
         "date": "2024-10-11",
@@ -4155,7 +4156,7 @@
         "openToHigh": 1.32,
         "openToLow": -0.26,
         "openToClose": 0.59,
-        "totalDelta": 1.56
+        "totalDelta": 1.59
       },
       {
         "date": "2024-10-14",
@@ -4167,7 +4168,7 @@
         "openToHigh": 2.27,
         "openToLow": -0.15,
         "openToClose": 1.15,
-        "totalDelta": 2.37
+        "totalDelta": 2.43
       },
       {
         "date": "2024-10-15",
@@ -4191,7 +4192,7 @@
         "openToHigh": 1.95,
         "openToLow": -1.81,
         "openToClose": 1.28,
-        "totalDelta": 3.69
+        "totalDelta": 3.83
       },
       {
         "date": "2024-10-17",
@@ -4227,7 +4228,7 @@
         "openToHigh": 4.12,
         "openToLow": -0.01,
         "openToClose": 4.12,
-        "totalDelta": 3.97
+        "totalDelta": 4.14
       },
       {
         "date": "2024-10-22",
@@ -4239,7 +4240,7 @@
         "openToHigh": 1.01,
         "openToLow": -0.83,
         "openToClose": 0.43,
-        "totalDelta": 1.83
+        "totalDelta": 1.86
       },
       {
         "date": "2024-10-23",
@@ -4275,7 +4276,7 @@
         "openToHigh": 2.24,
         "openToLow": -0.13,
         "openToClose": 0.40,
-        "totalDelta": 2.31
+        "totalDelta": 2.37
       },
       {
         "date": "2024-10-28",
@@ -4299,7 +4300,7 @@
         "openToHigh": 1.38,
         "openToLow": -1.01,
         "openToClose": 0.66,
-        "totalDelta": 2.36
+        "totalDelta": 2.42
       },
       {
         "date": "2024-10-30",
@@ -4335,7 +4336,7 @@
         "openToHigh": 1.90,
         "openToLow": -0.13,
         "openToClose": 0.49,
-        "totalDelta": 1.99
+        "totalDelta": 2.03
       },
       {
         "date": "2024-11-04",
@@ -4359,7 +4360,7 @@
         "openToHigh": 2.09,
         "openToLow": -0.12,
         "openToClose": 1.76,
-        "totalDelta": 2.17
+        "totalDelta": 2.21
       },
       {
         "date": "2024-11-06",
@@ -4371,7 +4372,7 @@
         "openToHigh": 2.44,
         "openToLow": -0.72,
         "openToClose": 1.83,
-        "totalDelta": 3.09
+        "totalDelta": 3.19
       },
       {
         "date": "2024-11-07",
@@ -4383,7 +4384,7 @@
         "openToHigh": 1.73,
         "openToLow": -0.16,
         "openToClose": 1.69,
-        "totalDelta": 1.85
+        "totalDelta": 1.89
       },
       {
         "date": "2024-11-08",
@@ -4419,7 +4420,7 @@
         "openToHigh": 1.98,
         "openToLow": -0.50,
         "openToClose": 1.06,
-        "totalDelta": 2.43
+        "totalDelta": 2.49
       },
       {
         "date": "2024-11-13",
@@ -4467,7 +4468,7 @@
         "openToHigh": 1.46,
         "openToLow": -1.68,
         "openToClose": 0.47,
-        "totalDelta": 3.10
+        "totalDelta": 3.20
       },
       {
         "date": "2024-11-19",
@@ -4479,7 +4480,7 @@
         "openToHigh": 4.13,
         "openToLow": -0.23,
         "openToClose": 4.04,
-        "totalDelta": 4.19
+        "totalDelta": 4.37
       },
       {
         "date": "2024-11-20",
@@ -4551,7 +4552,7 @@
         "openToHigh": 0.47,
         "openToLow": -2.41,
         "openToClose": 0.21,
-        "totalDelta": 2.87
+        "totalDelta": 2.95
       },
       {
         "date": "2024-11-29",
@@ -4563,7 +4564,7 @@
         "openToHigh": 1.86,
         "openToLow": -0.56,
         "openToClose": 1.05,
-        "totalDelta": 2.37
+        "totalDelta": 2.43
       },
       {
         "date": "2024-12-02",
@@ -4587,7 +4588,7 @@
         "openToHigh": 1.47,
         "openToLow": -0.40,
         "openToClose": 1.27,
-        "totalDelta": 1.84
+        "totalDelta": 1.88
       },
       {
         "date": "2024-12-04",
@@ -4599,7 +4600,7 @@
         "openToHigh": 2.67,
         "openToLow": -1.20,
         "openToClose": 2.21,
-        "totalDelta": 3.77
+        "totalDelta": 3.92
       },
       {
         "date": "2024-12-05",
@@ -4659,7 +4660,7 @@
         "openToHigh": 2.07,
         "openToLow": -1.54,
         "openToClose": 1.44,
-        "totalDelta": 3.54
+        "totalDelta": 3.67
       },
       {
         "date": "2024-12-12",
@@ -4671,7 +4672,7 @@
         "openToHigh": 1.01,
         "openToLow": -0.92,
         "openToClose": 0.20,
-        "totalDelta": 1.91
+        "totalDelta": 1.94
       },
       {
         "date": "2024-12-13",
@@ -4707,7 +4708,7 @@
         "openToHigh": 2.08,
         "openToLow": -1.59,
         "openToClose": 1.15,
-        "totalDelta": 3.59
+        "totalDelta": 3.73
       },
       {
         "date": "2024-12-18",
@@ -4743,7 +4744,7 @@
         "openToHigh": 4.16,
         "openToLow": -1.28,
         "openToClose": 3.71,
-        "totalDelta": 5.22
+        "totalDelta": 5.51
       },
       {
         "date": "2024-12-23",
@@ -4755,7 +4756,7 @@
         "openToHigh": 2.60,
         "openToLow": -0.83,
         "openToClose": 2.51,
-        "totalDelta": 3.34
+        "totalDelta": 3.46
       },
       {
         "date": "2024-12-24",
@@ -4767,7 +4768,7 @@
         "openToHigh": 1.39,
         "openToLow": -0.97,
         "openToClose": 0.16,
-        "totalDelta": 2.33
+        "totalDelta": 2.38
       },
       {
         "date": "2024-12-26",
@@ -4779,7 +4780,7 @@
         "openToHigh": 0.91,
         "openToLow": -1.33,
         "openToClose": 0.25,
-        "totalDelta": 2.22
+        "totalDelta": 2.27
       },
       {
         "date": "2024-12-27",
@@ -4803,7 +4804,7 @@
         "openToHigh": 4.02,
         "openToLow": -0.62,
         "openToClose": 1.96,
-        "totalDelta": 4.46
+        "totalDelta": 4.66
       },
       {
         "date": "2024-12-31",
@@ -4827,7 +4828,7 @@
         "openToHigh": 2.19,
         "openToLow": -0.94,
         "openToClose": 1.77,
-        "totalDelta": 3.07
+        "totalDelta": 3.16
       },
       {
         "date": "2025-01-03",
@@ -4839,7 +4840,7 @@
         "openToHigh": 3.50,
         "openToLow": -0.19,
         "openToClose": 3.19,
-        "totalDelta": 3.57
+        "totalDelta": 3.70
       },
       {
         "date": "2025-01-06",
@@ -4851,7 +4852,7 @@
         "openToHigh": 2.35,
         "openToLow": -0.56,
         "openToClose": 0.52,
-        "totalDelta": 2.84
+        "totalDelta": 2.93
       },
       {
         "date": "2025-01-07",
@@ -4899,7 +4900,7 @@
         "openToHigh": 2.68,
         "openToLow": -0.38,
         "openToClose": 2.48,
-        "totalDelta": 2.99
+        "totalDelta": 3.08
       },
       {
         "date": "2025-01-14",
@@ -4923,7 +4924,7 @@
         "openToHigh": 2.11,
         "openToLow": -1.75,
         "openToClose": 1.95,
-        "totalDelta": 3.78
+        "totalDelta": 3.93
       },
       {
         "date": "2025-01-16",
@@ -4947,7 +4948,7 @@
         "openToHigh": 1.22,
         "openToLow": -0.99,
         "openToClose": 0.64,
-        "totalDelta": 2.19
+        "totalDelta": 2.24
       },
       {
         "date": "2025-01-21",
@@ -4959,7 +4960,7 @@
         "openToHigh": 1.90,
         "openToLow": -1.50,
         "openToClose": 1.19,
-        "totalDelta": 3.34
+        "totalDelta": 3.46
       },
       {
         "date": "2025-01-22",
@@ -4971,7 +4972,7 @@
         "openToHigh": 2.09,
         "openToLow": -0.75,
         "openToClose": 1.60,
-        "totalDelta": 2.79
+        "totalDelta": 2.87
       },
       {
         "date": "2025-01-23",
@@ -4983,7 +4984,7 @@
         "openToHigh": 1.54,
         "openToLow": -0.88,
         "openToClose": 1.53,
-        "totalDelta": 2.38
+        "totalDelta": 2.44
       },
       {
         "date": "2025-01-24",
@@ -5019,7 +5020,7 @@
         "openToHigh": 5.86,
         "openToLow": -4.60,
         "openToClose": 5.85,
-        "totalDelta": 9.88
+        "totalDelta": 10.97
       },
       {
         "date": "2025-01-29",
@@ -5043,7 +5044,7 @@
         "openToHigh": 1.61,
         "openToLow": -4.00,
         "openToClose": 1.32,
-        "totalDelta": 5.52
+        "totalDelta": 5.84
       },
       {
         "date": "2025-01-31",
@@ -5067,7 +5068,7 @@
         "openToHigh": 3.28,
         "openToLow": -1.56,
         "openToClose": 1.62,
-        "totalDelta": 4.69
+        "totalDelta": 4.92
       },
       {
         "date": "2025-02-04",
@@ -5079,7 +5080,7 @@
         "openToHigh": 3.64,
         "openToLow": -0.21,
         "openToClose": 1.46,
-        "totalDelta": 3.71
+        "totalDelta": 3.86
       },
       {
         "date": "2025-02-05",
@@ -5091,7 +5092,7 @@
         "openToHigh": 2.69,
         "openToLow": -0.80,
         "openToClose": 2.55,
-        "totalDelta": 3.39
+        "totalDelta": 3.51
       },
       {
         "date": "2025-02-06",
@@ -5103,7 +5104,7 @@
         "openToHigh": 1.00,
         "openToLow": -1.80,
         "openToClose": 0.93,
-        "totalDelta": 2.76
+        "totalDelta": 2.84
       },
       {
         "date": "2025-02-07",
@@ -5115,7 +5116,7 @@
         "openToHigh": 0.83,
         "openToLow": -1.93,
         "openToClose": 0.42,
-        "totalDelta": 2.74
+        "totalDelta": 2.82
       },
       {
         "date": "2025-02-10",
@@ -5127,7 +5128,7 @@
         "openToHigh": 3.85,
         "openToLow": -0.03,
         "openToClose": 2.75,
-        "totalDelta": 3.73
+        "totalDelta": 3.88
       },
       {
         "date": "2025-02-11",
@@ -5139,7 +5140,7 @@
         "openToHigh": 1.44,
         "openToLow": -1.16,
         "openToClose": 0.17,
-        "totalDelta": 2.57
+        "totalDelta": 2.63
       },
       {
         "date": "2025-02-12",
@@ -5151,7 +5152,7 @@
         "openToHigh": 1.72,
         "openToLow": -0.71,
         "openToClose": 0.88,
-        "totalDelta": 2.39
+        "totalDelta": 2.45
       },
       {
         "date": "2025-02-13",
@@ -5163,7 +5164,7 @@
         "openToHigh": 3.79,
         "openToLow": -0.26,
         "openToClose": 2.87,
-        "totalDelta": 3.90
+        "totalDelta": 4.06
       },
       {
         "date": "2025-02-14",
@@ -5175,7 +5176,7 @@
         "openToHigh": 2.09,
         "openToLow": -0.66,
         "openToClose": 1.80,
-        "totalDelta": 2.69
+        "totalDelta": 2.77
       },
       {
         "date": "2025-02-18",
@@ -5211,7 +5212,7 @@
         "openToHigh": 0.47,
         "openToLow": -2.29,
         "openToClose": 0.08,
-        "totalDelta": 2.74
+        "totalDelta": 2.82
       },
       {
         "date": "2025-02-21",
@@ -5259,7 +5260,7 @@
         "openToHigh": 2.87,
         "openToLow": -1.16,
         "openToClose": 0.98,
-        "totalDelta": 3.92
+        "totalDelta": 4.08
       },
       {
         "date": "2025-02-27",
@@ -5283,7 +5284,7 @@
         "openToHigh": 6.06,
         "openToLow": -1.31,
         "openToClose": 5.92,
-        "totalDelta": 6.95
+        "totalDelta": 7.47
       },
       {
         "date": "2025-03-03",
@@ -5307,7 +5308,7 @@
         "openToHigh": 7.77,
         "openToLow": -0.54,
         "openToClose": 4.77,
-        "totalDelta": 7.71
+        "totalDelta": 8.36
       },
       {
         "date": "2025-03-05",
@@ -5343,7 +5344,7 @@
         "openToHigh": 2.11,
         "openToLow": -3.21,
         "openToClose": 1.40,
-        "totalDelta": 5.22
+        "totalDelta": 5.50
       },
       {
         "date": "2025-03-10",
@@ -5367,7 +5368,7 @@
         "openToHigh": 4.91,
         "openToLow": -2.07,
         "openToClose": 1.66,
-        "totalDelta": 6.65
+        "totalDelta": 7.13
       },
       {
         "date": "2025-03-12",
@@ -5379,7 +5380,7 @@
         "openToHigh": 2.29,
         "openToLow": -1.11,
         "openToClose": 1.39,
-        "totalDelta": 3.32
+        "totalDelta": 3.44
       },
       {
         "date": "2025-03-13",
@@ -5403,7 +5404,7 @@
         "openToHigh": 2.82,
         "openToLow": -0.33,
         "openToClose": 2.64,
-        "totalDelta": 3.06
+        "totalDelta": 3.16
       },
       {
         "date": "2025-03-17",
@@ -5439,7 +5440,7 @@
         "openToHigh": 2.70,
         "openToLow": -1.36,
         "openToClose": 0.20,
-        "totalDelta": 3.96
+        "totalDelta": 4.12
       },
       {
         "date": "2025-03-20",
@@ -5451,7 +5452,7 @@
         "openToHigh": 3.18,
         "openToLow": -0.03,
         "openToClose": 1.74,
-        "totalDelta": 3.10
+        "totalDelta": 3.20
       },
       {
         "date": "2025-03-21",
@@ -5463,7 +5464,7 @@
         "openToHigh": 0.81,
         "openToLow": -1.38,
         "openToClose": 0.56,
-        "totalDelta": 2.18
+        "totalDelta": 2.23
       },
       {
         "date": "2025-03-24",
@@ -5475,7 +5476,7 @@
         "openToHigh": 1.93,
         "openToLow": -0.47,
         "openToClose": 1.26,
-        "totalDelta": 2.36
+        "totalDelta": 2.41
       },
       {
         "date": "2025-03-25",
@@ -5487,7 +5488,7 @@
         "openToHigh": 0.66,
         "openToLow": -1.31,
         "openToClose": 0.16,
-        "totalDelta": 1.95
+        "totalDelta": 1.99
       },
       {
         "date": "2025-03-26",
@@ -5511,7 +5512,7 @@
         "openToHigh": 2.77,
         "openToLow": -0.63,
         "openToClose": 0.06,
-        "totalDelta": 3.31
+        "totalDelta": 3.42
       },
       {
         "date": "2025-03-28",
@@ -5535,7 +5536,7 @@
         "openToHigh": 3.67,
         "openToLow": -1.37,
         "openToClose": 3.12,
-        "totalDelta": 4.86
+        "totalDelta": 5.11
       },
       {
         "date": "2025-04-01",
@@ -5547,7 +5548,7 @@
         "openToHigh": 1.61,
         "openToLow": -1.83,
         "openToClose": 1.57,
-        "totalDelta": 3.38
+        "totalDelta": 3.50
       },
       {
         "date": "2025-04-02",
@@ -5559,7 +5560,7 @@
         "openToHigh": 4.29,
         "openToLow": -0.54,
         "openToClose": 2.84,
-        "totalDelta": 4.63
+        "totalDelta": 4.86
       },
       {
         "date": "2025-04-03",
@@ -5595,7 +5596,7 @@
         "openToHigh": 16.34,
         "openToLow": -0.96,
         "openToClose": 11.64,
-        "totalDelta": 14.87
+        "totalDelta": 17.47
       },
       {
         "date": "2025-04-08",
@@ -5619,7 +5620,7 @@
         "openToHigh": 16.38,
         "openToLow": -1.23,
         "openToClose": 15.60,
-        "totalDelta": 15.13
+        "totalDelta": 17.83
       },
       {
         "date": "2025-04-10",
@@ -5643,7 +5644,7 @@
         "openToHigh": 2.76,
         "openToLow": -0.97,
         "openToClose": 2.21,
-        "totalDelta": 3.63
+        "totalDelta": 3.77
       },
       {
         "date": "2025-04-14",
@@ -5667,7 +5668,7 @@
         "openToHigh": 2.29,
         "openToLow": -0.51,
         "openToClose": 1.02,
-        "totalDelta": 2.74
+        "totalDelta": 2.81
       },
       {
         "date": "2025-04-16",
@@ -5679,7 +5680,7 @@
         "openToHigh": 2.25,
         "openToLow": -3.82,
         "openToClose": 0.05,
-        "totalDelta": 5.94
+        "totalDelta": 6.31
       },
       {
         "date": "2025-04-17",
@@ -5715,7 +5716,7 @@
         "openToHigh": 0.96,
         "openToLow": -1.60,
         "openToClose": 0.03,
-        "totalDelta": 2.53
+        "totalDelta": 2.60
       },
       {
         "date": "2025-04-23",
@@ -5739,7 +5740,7 @@
         "openToHigh": 2.95,
         "openToLow": -0.37,
         "openToClose": 2.83,
-        "totalDelta": 3.22
+        "totalDelta": 3.33
       },
       {
         "date": "2025-04-25",
@@ -5751,7 +5752,7 @@
         "openToHigh": 4.74,
         "openToLow": -1.05,
         "openToClose": 3.89,
-        "totalDelta": 5.53
+        "totalDelta": 5.85
       },
       {
         "date": "2025-04-28",
@@ -5775,7 +5776,7 @@
         "openToHigh": 2.34,
         "openToLow": -0.21,
         "openToClose": 1.26,
-        "totalDelta": 2.50
+        "totalDelta": 2.56
       },
       {
         "date": "2025-04-30",
@@ -5787,7 +5788,7 @@
         "openToHigh": 4.23,
         "openToLow": -0.40,
         "openToClose": 4.23,
-        "totalDelta": 4.44
+        "totalDelta": 4.65
       },
       {
         "date": "2025-05-01",
@@ -5811,7 +5812,7 @@
         "openToHigh": 1.13,
         "openToLow": -0.65,
         "openToClose": 0.34,
-        "totalDelta": 1.76
+        "totalDelta": 1.79
       },
       {
         "date": "2025-05-05",
@@ -5823,7 +5824,7 @@
         "openToHigh": 1.56,
         "openToLow": -0.21,
         "openToClose": 0.81,
-        "totalDelta": 1.75
+        "totalDelta": 1.78
       },
       {
         "date": "2025-05-06",
@@ -5835,7 +5836,7 @@
         "openToHigh": 3.07,
         "openToLow": -0.44,
         "openToClose": 1.99,
-        "totalDelta": 3.41
+        "totalDelta": 3.53
       },
       {
         "date": "2025-05-07",
@@ -5847,7 +5848,7 @@
         "openToHigh": 4.15,
         "openToLow": -0.62,
         "openToClose": 3.60,
-        "totalDelta": 4.58
+        "totalDelta": 4.80
       },
       {
         "date": "2025-05-08",
@@ -5883,7 +5884,7 @@
         "openToHigh": 0.82,
         "openToLow": -1.41,
         "openToClose": 0.82,
-        "totalDelta": 2.21
+        "totalDelta": 2.26
       },
       {
         "date": "2025-05-13",
@@ -5895,7 +5896,7 @@
         "openToHigh": 4.97,
         "openToLow": -0.42,
         "openToClose": 3.94,
-        "totalDelta": 5.14
+        "totalDelta": 5.42
       },
       {
         "date": "2025-05-14",
@@ -5907,7 +5908,7 @@
         "openToHigh": 1.64,
         "openToLow": -1.18,
         "openToClose": 1.57,
-        "totalDelta": 2.78
+        "totalDelta": 2.86
       },
       {
         "date": "2025-05-15",
@@ -5919,7 +5920,7 @@
         "openToHigh": 1.47,
         "openToLow": -1.24,
         "openToClose": 0.37,
-        "totalDelta": 2.66
+        "totalDelta": 2.74
       },
       {
         "date": "2025-05-16",
@@ -5943,7 +5944,7 @@
         "openToHigh": 2.51,
         "openToLow": -0.15,
         "openToClose": 2.29,
-        "totalDelta": 2.60
+        "totalDelta": 2.67
       },
       {
         "date": "2025-05-20",
@@ -5955,7 +5956,7 @@
         "openToHigh": 0.27,
         "openToLow": -1.19,
         "openToClose": 0.12,
-        "totalDelta": 1.45
+        "totalDelta": 1.47
       },
       {
         "date": "2025-05-21",
@@ -5979,7 +5980,7 @@
         "openToHigh": 1.49,
         "openToLow": -0.55,
         "openToClose": 0.42,
-        "totalDelta": 2.01
+        "totalDelta": 2.05
       },
       {
         "date": "2025-05-23",
@@ -5991,7 +5992,7 @@
         "openToHigh": 2.06,
         "openToLow": -0.65,
         "openToClose": 0.99,
-        "totalDelta": 2.65
+        "totalDelta": 2.73
       },
       {
         "date": "2025-05-27",
@@ -6003,7 +6004,7 @@
         "openToHigh": 1.16,
         "openToLow": -0.59,
         "openToClose": 1.04,
-        "totalDelta": 1.73
+        "totalDelta": 1.76
       },
       {
         "date": "2025-05-28",
@@ -6051,7 +6052,7 @@
         "openToHigh": 1.93,
         "openToLow": -0.07,
         "openToClose": 1.39,
-        "totalDelta": 1.97
+        "totalDelta": 2.01
       },
       {
         "date": "2025-06-03",
@@ -6063,7 +6064,7 @@
         "openToHigh": 2.34,
         "openToLow": -0.58,
         "openToClose": 1.78,
-        "totalDelta": 2.85
+        "totalDelta": 2.94
       },
       {
         "date": "2025-06-04",
@@ -6123,7 +6124,7 @@
         "openToHigh": 1.16,
         "openToLow": -0.77,
         "openToClose": 0.93,
-        "totalDelta": 1.92
+        "totalDelta": 1.95
       },
       {
         "date": "2025-06-11",
@@ -6147,7 +6148,7 @@
         "openToHigh": 2.11,
         "openToLow": -0.11,
         "openToClose": 2.11,
-        "totalDelta": 2.17
+        "totalDelta": 2.22
       },
       {
         "date": "2025-06-13",
@@ -6171,7 +6172,7 @@
         "openToHigh": 1.97,
         "openToLow": -0.07,
         "openToClose": 0.93,
-        "totalDelta": 2.00
+        "totalDelta": 2.04
       },
       {
         "date": "2025-06-17",
@@ -6195,7 +6196,7 @@
         "openToHigh": 1.16,
         "openToLow": -0.60,
         "openToClose": 1.04,
-        "totalDelta": 1.74
+        "totalDelta": 1.77
       },
       {
         "date": "2025-06-20",
@@ -6219,7 +6220,7 @@
         "openToHigh": 1.62,
         "openToLow": -0.30,
         "openToClose": 1.19,
-        "totalDelta": 1.89
+        "totalDelta": 1.93
       },
       {
         "date": "2025-06-24",
@@ -6231,7 +6232,7 @@
         "openToHigh": 1.69,
         "openToLow": 0.0,
         "openToClose": 1.65,
-        "totalDelta": 1.66
+        "totalDelta": 1.69
       },
       {
         "date": "2025-06-25",
@@ -6243,7 +6244,7 @@
         "openToHigh": 3.46,
         "openToLow": -0.01,
         "openToClose": 3.37,
-        "totalDelta": 3.35
+        "totalDelta": 3.47
       },
       {
         "date": "2025-06-26",
@@ -6267,7 +6268,7 @@
         "openToHigh": 1.73,
         "openToLow": -0.48,
         "openToClose": 1.12,
-        "totalDelta": 2.17
+        "totalDelta": 2.22
       },
       {
         "date": "2025-06-30",
@@ -6303,7 +6304,7 @@
         "openToHigh": 2.95,
         "openToLow": -0.08,
         "openToClose": 2.72,
-        "totalDelta": 2.95
+        "totalDelta": 3.04
       },
       {
         "date": "2025-07-03",
@@ -6315,7 +6316,7 @@
         "openToHigh": 1.64,
         "openToLow": -0.39,
         "openToClose": 0.61,
-        "totalDelta": 1.99
+        "totalDelta": 2.03
       },
       {
         "date": "2025-07-07",
@@ -6339,7 +6340,7 @@
         "openToHigh": 0.58,
         "openToLow": -0.57,
         "openToClose": 0.44,
-        "totalDelta": 1.14
+        "totalDelta": 1.16
       },
       {
         "date": "2025-07-09",
@@ -6351,7 +6352,7 @@
         "openToHigh": 2.02,
         "openToLow": 0.0,
         "openToClose": 1.07,
-        "totalDelta": 1.98
+        "totalDelta": 2.02
       },
       {
         "date": "2025-07-10",
@@ -6375,7 +6376,7 @@
         "openToHigh": 2.53,
         "openToLow": -0.17,
         "openToClose": 0.71,
-        "totalDelta": 2.63
+        "totalDelta": 2.70
       },
       {
         "date": "2025-07-14",
@@ -6411,7 +6412,7 @@
         "openToHigh": 0.44,
         "openToLow": -1.23,
         "openToClose": 0.22,
-        "totalDelta": 1.66
+        "totalDelta": 1.69
       },
       {
         "date": "2025-07-17",
@@ -6423,7 +6424,7 @@
         "openToHigh": 1.25,
         "openToLow": -0.69,
         "openToClose": 0.58,
-        "totalDelta": 1.91
+        "totalDelta": 1.95
       },
       {
         "date": "2025-07-18",
@@ -6471,7 +6472,7 @@
         "openToHigh": 0.98,
         "openToLow": -0.96,
         "openToClose": 0.70,
-        "totalDelta": 1.92
+        "totalDelta": 1.96
       },
       {
         "date": "2025-07-24",
@@ -6483,7 +6484,7 @@
         "openToHigh": 0.79,
         "openToLow": -0.67,
         "openToClose": 0.74,
-        "totalDelta": 1.46
+        "totalDelta": 1.48
       },
       {
         "date": "2025-07-25",
@@ -6507,7 +6508,7 @@
         "openToHigh": 1.72,
         "openToLow": -0.02,
         "openToClose": 1.58,
-        "totalDelta": 1.72
+        "totalDelta": 1.75
       },
       {
         "date": "2025-07-29",
@@ -6531,7 +6532,7 @@
         "openToHigh": 1.92,
         "openToLow": -0.26,
         "openToClose": 1.57,
-        "totalDelta": 2.14
+        "totalDelta": 2.19
       },
       {
         "date": "2025-07-31",
@@ -6567,7 +6568,7 @@
         "openToHigh": 2.91,
         "openToLow": -0.33,
         "openToClose": 2.80,
-        "totalDelta": 3.15
+        "totalDelta": 3.25
       },
       {
         "date": "2025-08-05",
@@ -6591,7 +6592,7 @@
         "openToHigh": 2.07,
         "openToLow": -0.01,
         "openToClose": 1.79,
-        "totalDelta": 2.03
+        "totalDelta": 2.07
       },
       {
         "date": "2025-08-07",
@@ -6615,7 +6616,7 @@
         "openToHigh": 0.95,
         "openToLow": -0.64,
         "openToClose": 0.62,
-        "totalDelta": 1.58
+        "totalDelta": 1.61
       },
       {
         "date": "2025-08-11",
@@ -6627,7 +6628,7 @@
         "openToHigh": 0.99,
         "openToLow": -0.98,
         "openToClose": 0.02,
-        "totalDelta": 1.95
+        "totalDelta": 1.99
       },
       {
         "date": "2025-08-12",
@@ -6639,7 +6640,7 @@
         "openToHigh": 0.81,
         "openToLow": -1.93,
         "openToClose": 0.09,
-        "totalDelta": 2.72
+        "totalDelta": 2.79
       },
       {
         "date": "2025-08-13",
@@ -6663,7 +6664,7 @@
         "openToHigh": 1.79,
         "openToLow": -0.19,
         "openToClose": 1.23,
-        "totalDelta": 1.95
+        "totalDelta": 1.98
       },
       {
         "date": "2025-08-15",
@@ -6687,7 +6688,7 @@
         "openToHigh": 1.23,
         "openToLow": -0.08,
         "openToClose": 0.71,
-        "totalDelta": 1.30
+        "totalDelta": 1.31
       },
       {
         "date": "2025-08-19",
@@ -6711,7 +6712,7 @@
         "openToHigh": 0.52,
         "openToLow": -3.59,
         "openToClose": 0.18,
-        "totalDelta": 4.09
+        "totalDelta": 4.26
       },
       {
         "date": "2025-08-21",
@@ -6723,7 +6724,7 @@
         "openToHigh": 1.14,
         "openToLow": -0.63,
         "openToClose": 0.05,
-        "totalDelta": 1.75
+        "totalDelta": 1.78
       },
       {
         "date": "2025-08-22",
@@ -6735,7 +6736,7 @@
         "openToHigh": 3.45,
         "openToLow": -0.83,
         "openToClose": 3.10,
-        "totalDelta": 4.14
+        "totalDelta": 4.32
       },
       {
         "date": "2025-08-25",
@@ -6747,7 +6748,7 @@
         "openToHigh": 2.01,
         "openToLow": -0.99,
         "openToClose": 0.83,
-        "totalDelta": 2.94
+        "totalDelta": 3.03
       },
       {
         "date": "2025-08-26",
@@ -6759,7 +6760,7 @@
         "openToHigh": 1.33,
         "openToLow": -0.66,
         "openToClose": 0.98,
-        "totalDelta": 1.96
+        "totalDelta": 2.00
       },
       {
         "date": "2025-08-27",
@@ -6807,7 +6808,7 @@
         "openToHigh": 1.47,
         "openToLow": -1.56,
         "openToClose": 0.54,
-        "totalDelta": 2.99
+        "totalDelta": 3.08
       },
       {
         "date": "2025-09-03",
@@ -6831,7 +6832,7 @@
         "openToHigh": 0.75,
         "openToLow": -0.68,
         "openToClose": 0.64,
-        "totalDelta": 1.42
+        "totalDelta": 1.44
       },
       {
         "date": "2025-09-05",
@@ -6855,7 +6856,7 @@
         "openToHigh": 2.02,
         "openToLow": -0.14,
         "openToClose": 0.44,
-        "totalDelta": 2.12
+        "totalDelta": 2.17
       },
       {
         "date": "2025-09-09",
@@ -6867,7 +6868,7 @@
         "openToHigh": 1.15,
         "openToLow": -1.36,
         "openToClose": 1.02,
-        "totalDelta": 2.48
+        "totalDelta": 2.54
       },
       {
         "date": "2025-09-10",
@@ -6879,7 +6880,7 @@
         "openToHigh": 1.47,
         "openToLow": -0.69,
         "openToClose": 0.36,
-        "totalDelta": 2.13
+        "totalDelta": 2.18
       },
       {
         "date": "2025-09-11",
@@ -6915,7 +6916,7 @@
         "openToHigh": 1.83,
         "openToLow": -0.64,
         "openToClose": 1.20,
-        "totalDelta": 2.43
+        "totalDelta": 2.49
       },
       {
         "date": "2025-09-16",
@@ -6951,7 +6952,7 @@
         "openToHigh": 1.89,
         "openToLow": -0.49,
         "openToClose": 1.40,
-        "totalDelta": 2.34
+        "totalDelta": 2.39
       },
       {
         "date": "2025-09-19",
@@ -6963,7 +6964,7 @@
         "openToHigh": 1.10,
         "openToLow": -0.55,
         "openToClose": 0.30,
-        "totalDelta": 1.63
+        "totalDelta": 1.66
       },
       {
         "date": "2025-09-22",
@@ -6975,7 +6976,7 @@
         "openToHigh": 5.30,
         "openToLow": -0.31,
         "openToClose": 4.76,
-        "totalDelta": 5.33
+        "totalDelta": 5.63
       },
       {
         "date": "2025-09-23",
@@ -7011,7 +7012,7 @@
         "openToHigh": 3.34,
         "openToLow": -0.75,
         "openToClose": 1.87,
-        "totalDelta": 3.96
+        "totalDelta": 4.12
       },
       {
         "date": "2025-09-26",
@@ -7023,7 +7024,7 @@
         "openToHigh": 0.90,
         "openToLow": -1.82,
         "openToClose": 0.01,
-        "totalDelta": 2.69
+        "totalDelta": 2.77
       },
       {
         "date": "2025-09-29",
@@ -7035,7 +7036,7 @@
         "openToHigh": 2.02,
         "openToLow": -0.02,
         "openToClose": 0.83,
-        "totalDelta": 2.00
+        "totalDelta": 2.04
       },
       {
         "date": "2025-09-30",
@@ -7047,7 +7048,7 @@
         "openToHigh": 2.92,
         "openToLow": -0.31,
         "openToClose": 2.50,
-        "totalDelta": 3.14
+        "totalDelta": 3.24
       },
       {
         "date": "2025-10-01",
@@ -7059,7 +7060,7 @@
         "openToHigh": 1.54,
         "openToLow": -0.74,
         "openToClose": 1.06,
-        "totalDelta": 2.25
+        "totalDelta": 2.31
       },
       {
         "date": "2025-10-02",
@@ -7095,7 +7096,7 @@
         "openToHigh": 0.94,
         "openToLow": -1.16,
         "openToClose": 0.03,
-        "totalDelta": 2.08
+        "totalDelta": 2.13
       },
       {
         "date": "2025-10-07",
@@ -7119,7 +7120,7 @@
         "openToHigh": 1.79,
         "openToLow": -0.06,
         "openToClose": 1.31,
-        "totalDelta": 1.82
+        "totalDelta": 1.85
       },
       {
         "date": "2025-10-09",
@@ -7131,7 +7132,7 @@
         "openToHigh": 1.60,
         "openToLow": -0.60,
         "openToClose": 0.18,
-        "totalDelta": 2.17
+        "totalDelta": 2.22
       },
       {
         "date": "2025-10-10",
@@ -7155,7 +7156,7 @@
         "openToHigh": 1.12,
         "openToLow": -1.09,
         "openToClose": 0.17,
-        "totalDelta": 2.18
+        "totalDelta": 2.23
       },
       {
         "date": "2025-10-14",
@@ -7203,7 +7204,7 @@
         "openToHigh": 2.17,
         "openToLow": -0.24,
         "openToClose": 1.68,
-        "totalDelta": 2.36
+        "totalDelta": 2.42
       },
       {
         "date": "2025-10-20",
@@ -7251,7 +7252,7 @@
         "openToHigh": 1.41,
         "openToLow": -0.38,
         "openToClose": 0.93,
-        "totalDelta": 1.76
+        "totalDelta": 1.80
       },
       {
         "date": "2025-10-24",
@@ -7263,7 +7264,7 @@
         "openToHigh": 1.99,
         "openToLow": -0.16,
         "openToClose": 1.34,
-        "totalDelta": 2.11
+        "totalDelta": 2.16
       },
       {
         "date": "2025-10-27",
@@ -7275,7 +7276,7 @@
         "openToHigh": 1.10,
         "openToLow": -0.82,
         "openToClose": 0.78,
-        "totalDelta": 1.90
+        "totalDelta": 1.94
       },
       {
         "date": "2025-10-28",
@@ -7287,7 +7288,7 @@
         "openToHigh": 5.23,
         "openToLow": -0.59,
         "openToClose": 4.13,
-        "totalDelta": 5.53
+        "totalDelta": 5.86
       },
       {
         "date": "2025-10-29",
@@ -7383,7 +7384,7 @@
         "openToHigh": 1.90,
         "openToLow": -3.19,
         "openToClose": 1.81,
-        "totalDelta": 5.00
+        "totalDelta": 5.26
       },
       {
         "date": "2025-11-10",
@@ -7395,7 +7396,7 @@
         "openToHigh": 2.53,
         "openToLow": -0.62,
         "openToClose": 2.08,
-        "totalDelta": 3.08
+        "totalDelta": 3.17
       },
       {
         "date": "2025-11-11",
@@ -7443,7 +7444,7 @@
         "openToHigh": 4.42,
         "openToLow": -1.28,
         "openToClose": 3.96,
-        "totalDelta": 5.46
+        "totalDelta": 5.78
       },
       {
         "date": "2025-11-17",
@@ -7455,7 +7456,7 @@
         "openToHigh": 1.68,
         "openToLow": -0.83,
         "openToClose": 0.39,
-        "totalDelta": 2.48
+        "totalDelta": 2.54
       },
       {
         "date": "2025-11-18",
@@ -7479,7 +7480,7 @@
         "openToHigh": 1.61,
         "openToLow": -1.11,
         "openToClose": 0.88,
-        "totalDelta": 2.67
+        "totalDelta": 2.75
       },
       {
         "date": "2025-11-20",
@@ -7515,7 +7516,7 @@
         "openToHigh": 2.27,
         "openToLow": -1.64,
         "openToClose": 1.74,
-        "totalDelta": 3.83
+        "totalDelta": 3.98
       },
       {
         "date": "2025-11-25",
@@ -7527,7 +7528,7 @@
         "openToHigh": 1.92,
         "openToLow": -3.00,
         "openToClose": 1.73,
-        "totalDelta": 4.83
+        "totalDelta": 5.08
       },
       {
         "date": "2025-11-26",
