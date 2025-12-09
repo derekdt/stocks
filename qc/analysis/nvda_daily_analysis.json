@@ -3,6 +3,7 @@
     "analysisStartDate": "2023-05-29",
     "analysisEndDate": "2025-12-01",
     "numDays": 629,
+    "numFilteredDays": 0,
     "totalDeltaThreshold": 20,
     "filteredDays": [],
     "dailyData": [

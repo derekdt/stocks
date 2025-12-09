@@ -2,9 +2,18 @@
     "ticker": "QQQ",
     "analysisStartDate": "1999-03-10",
     "analysisEndDate": "2025-12-01",
-    "numDays": 6692,
-    "totalDeltaThreshold": 15,
+    "numDays": 6616,
+    "numFilteredDays": 108,
+    "totalDeltaThreshold": 10,
     "filteredDays": [
+      {
+        "date": "2000-01-04",
+        "open": 92.00,
+        "high": 99.38,
+        "low": 88.50,
+        "close": 88.82,
+        "volume": 33341200.0
+      },
       {
         "date": "2000-01-07",
         "open": 82.94,
@@ -12,6 +21,14 @@
         "low": 70.36,
         "close": 88.44,
         "volume": 27025200.0
+      },
+      {
+        "date": "2000-01-27",
+        "open": 91.75,
+        "high": 98.75,
+        "low": 87.62,
+        "close": 89.97,
+        "volume": 30257600.0
       },
       {
         "date": "2000-04-04",
@@ -22,6 +39,22 @@
         "volume": 66719600.0
       },
       {
+        "date": "2000-04-14",
+        "open": 86.06,
+        "high": 88.50,
+        "low": 78.00,
+        "close": 80.25,
+        "volume": 59724100.0
+      },
+      {
+        "date": "2000-04-17",
+        "open": 78.02,
+        "high": 88.00,
+        "low": 78.00,
+        "close": 87.63,
+        "volume": 55296400.0
+      },
+      {
         "date": "2000-04-27",
         "open": 83.50,
         "high": 97.50,
@@ -30,12 +63,108 @@
         "volume": 36393500.0
       },
       {
+        "date": "2000-04-28",
+        "open": 93.56,
+        "high": 94.75,
+        "low": 82.89,
+        "close": 94.25,
+        "volume": 23397200.0
+      },
+      {
+        "date": "2000-05-10",
+        "open": 84.38,
+        "high": 92.30,
+        "low": 80.75,
+        "close": 80.98,
+        "volume": 33201800.0
+      },
+      {
+        "date": "2000-05-23",
+        "open": 81.38,
+        "high": 85.78,
+        "low": 75.31,
+        "close": 75.75,
+        "volume": 30734700.0
+      },
+      {
+        "date": "2000-05-24",
+        "open": 75.00,
+        "high": 80.00,
+        "low": 72.25,
+        "close": 79.44,
+        "volume": 49939800.0
+      },
+      {
         "date": "2000-06-02",
         "open": 92.63,
         "high": 108.31,
         "low": 82.50,
         "close": 93.38,
         "volume": 31332700.0
+      },
+      {
+        "date": "2000-06-15",
+        "open": 91.88,
+        "high": 93.81,
+        "low": 81.77,
+        "close": 93.56,
+        "volume": 18513300.0
+      },
+      {
+        "date": "2000-07-17",
+        "open": 100.94,
+        "high": 102.06,
+        "low": 91.61,
+        "close": 101.52,
+        "volume": 12798100.0
+      },
+      {
+        "date": "2000-07-19",
+        "open": 98.31,
+        "high": 98.94,
+        "low": 87.83,
+        "close": 96.06,
+        "volume": 21249600.0
+      },
+      {
+        "date": "2000-07-20",
+        "open": 97.88,
+        "high": 99.88,
+        "low": 87.39,
+        "close": 99.50,
+        "volume": 19233600.0
+      },
+      {
+        "date": "2000-08-01",
+        "open": 89.81,
+        "high": 99.83,
+        "low": 87.48,
+        "close": 87.98,
+        "volume": 15374700.0
+      },
+      {
+        "date": "2000-08-03",
+        "open": 84.25,
+        "high": 90.50,
+        "low": 79.31,
+        "close": 90.50,
+        "volume": 35322400.0
+      },
+      {
+        "date": "2000-09-13",
+        "open": 90.25,
+        "high": 93.75,
+        "low": 85.00,
+        "close": 93.31,
+        "volume": 33216900.0
+      },
+      {
+        "date": "2000-09-22",
+        "open": 87.63,
+        "high": 97.75,
+        "low": 87.50,
+        "close": 92.20,
+        "volume": 33321300.0
       },
       {
         "date": "2000-12-05",
@@ -54,12 +183,28 @@
         "volume": 59582400.0
       },
       {
+        "date": "2001-01-02",
+        "open": 58.56,
+        "high": 58.69,
+        "low": 52.44,
+        "close": 53.23,
+        "volume": 61819700.0
+      },
+      {
         "date": "2001-01-03",
         "open": 52.19,
         "high": 64.00,
         "low": 52.06,
         "close": 62.81,
         "volume": 115085400.0
+      },
+      {
+        "date": "2001-01-30",
+        "open": 67.15,
+        "high": 69.21,
+        "low": 60.40,
+        "close": 66.86,
+        "volume": 41285400.0
       },
       {
         "date": "2001-02-23",
@@ -78,12 +223,92 @@
         "volume": 96432700.0
       },
       {
+        "date": "2001-03-20",
+        "open": 43.44,
+        "high": 45.20,
+        "low": 40.20,
+        "close": 40.20,
+        "volume": 105692400.0
+      },
+      {
+        "date": "2001-03-21",
+        "open": 40.52,
+        "high": 44.25,
+        "low": 38.83,
+        "close": 40.10,
+        "volume": 93462300.0
+      },
+      {
+        "date": "2001-03-22",
+        "open": 40.60,
+        "high": 42.66,
+        "low": 38.75,
+        "close": 42.50,
+        "volume": 137815500.0
+      },
+      {
+        "date": "2001-04-03",
+        "open": 37.20,
+        "high": 39.25,
+        "low": 34.62,
+        "close": 34.86,
+        "volume": 86663600.0
+      },
+      {
         "date": "2001-04-18",
         "open": 43.72,
         "high": 51.00,
         "low": 43.12,
         "close": 45.59,
         "volume": 123366600.0
+      },
+      {
+        "date": "2001-04-19",
+        "open": 46.10,
+        "high": 48.73,
+        "low": 43.80,
+        "close": 48.70,
+        "volume": 118045800.0
+      },
+      {
+        "date": "2001-05-07",
+        "open": 48.00,
+        "high": 48.75,
+        "low": 42.79,
+        "close": 47.21,
+        "volume": 44587600.0
+      },
+      {
+        "date": "2001-10-01",
+        "open": 28.85,
+        "high": 32.36,
+        "low": 27.85,
+        "close": 28.61,
+        "volume": 52781600.0
+      },
+      {
+        "date": "2001-10-03",
+        "open": 28.43,
+        "high": 31.61,
+        "low": 28.33,
+        "close": 31.05,
+        "volume": 133162300.0
+      },
+      {
+        "date": "2001-10-17",
+        "open": 35.87,
+        "high": 36.95,
+        "low": 32.30,
+        "close": 32.79,
+        "volume": 154599400.0
+      },
+      {
+        "date": "2001-10-26",
+        "open": 36.50,
+        "high": 37.06,
+        "low": 33.32,
+        "close": 36.26,
+        "volume": 92281300.0
       },
       {
         "date": "2001-10-30",
@@ -94,12 +319,28 @@
         "volume": 92425500.0
       },
       {
+        "date": "2001-11-09",
+        "open": 37.60,
+        "high": 38.75,
+        "low": 34.43,
+        "close": 37.69,
+        "volume": 71811800.0
+      },
+      {
         "date": "2001-11-21",
         "open": 38.47,
         "high": 38.95,
         "low": 33.18,
         "close": 38.68,
         "volume": 60797400.0
+      },
+      {
+        "date": "2001-12-07",
+        "open": 42.49,
+        "high": 46.20,
+        "low": 41.14,
+        "close": 41.72,
+        "volume": 83031500.0
       },
       {
         "date": "2001-12-13",
@@ -118,6 +359,38 @@
         "volume": 96051400.0
       },
       {
+        "date": "2002-02-11",
+        "open": 36.14,
+        "high": 39.17,
+        "low": 35.25,
+        "close": 36.79,
+        "volume": 57597300.0
+      },
+      {
+        "date": "2002-03-04",
+        "open": 35.70,
+        "high": 37.23,
+        "low": 32.74,
+        "close": 37.18,
+        "volume": 105917300.0
+      },
+      {
+        "date": "2002-03-05",
+        "open": 36.94,
+        "high": 37.87,
+        "low": 34.42,
+        "close": 37.27,
+        "volume": 93016600.0
+      },
+      {
+        "date": "2002-03-11",
+        "open": 38.35,
+        "high": 41.91,
+        "low": 38.06,
+        "close": 38.66,
+        "volume": 70091400.0
+      },
+      {
         "date": "2002-04-10",
         "open": 33.76,
         "high": 38.85,
@@ -126,12 +399,28 @@
         "volume": 85289100.0
       },
       {
+        "date": "2002-04-25",
+        "open": 32.31,
+        "high": 35.48,
+        "low": 32.00,
+        "close": 32.41,
+        "volume": 101260200.0
+      },
+      {
         "date": "2002-05-07",
         "open": 29.27,
         "high": 33.88,
         "low": 28.42,
         "close": 28.84,
         "volume": 94387900.0
+      },
+      {
+        "date": "2002-06-20",
+        "open": 27.27,
+        "high": 27.75,
+        "low": 24.84,
+        "close": 26.49,
+        "volume": 98065700.0
       },
       {
         "date": "2002-06-26",
@@ -150,6 +439,30 @@
         "volume": 115953200.0
       },
       {
+        "date": "2002-07-03",
+        "open": 23.85,
+        "high": 25.93,
+        "low": 22.73,
+        "close": 24.72,
+        "volume": 103246100.0
+      },
+      {
+        "date": "2002-07-08",
+        "open": 26.20,
+        "high": 28.68,
+        "low": 25.08,
+        "close": 25.25,
+        "volume": 96044800.0
+      },
+      {
+        "date": "2002-07-11",
+        "open": 23.77,
+        "high": 25.78,
+        "low": 23.30,
+        "close": 24.80,
+        "volume": 163549300.0
+      },
+      {
         "date": "2002-07-22",
         "open": 23.86,
         "high": 28.28,
@@ -158,12 +471,116 @@
         "volume": 146379600.0
       },
       {
+        "date": "2002-07-24",
+        "open": 21.82,
+        "high": 23.65,
+        "low": 21.16,
+        "close": 23.62,
+        "volume": 180896400.0
+      },
+      {
+        "date": "2002-07-25",
+        "open": 23.26,
+        "high": 25.13,
+        "low": 21.80,
+        "close": 22.22,
+        "volume": 156626000.0
+      },
+      {
+        "date": "2002-07-26",
+        "open": 22.57,
+        "high": 24.59,
+        "low": 22.01,
+        "close": 22.65,
+        "volume": 93825700.0
+      },
+      {
+        "date": "2002-08-08",
+        "open": 22.76,
+        "high": 24.00,
+        "low": 21.79,
+        "close": 23.51,
+        "volume": 109982600.0
+      },
+      {
+        "date": "2002-08-19",
+        "open": 24.77,
+        "high": 26.50,
+        "low": 24.06,
+        "close": 25.47,
+        "volume": 74446500.0
+      },
+      {
+        "date": "2002-08-20",
+        "open": 25.19,
+        "high": 25.43,
+        "low": 22.18,
+        "close": 25.10,
+        "volume": 87549600.0
+      },
+      {
         "date": "2002-09-26",
         "open": 22.16,
         "high": 25.59,
         "low": 21.02,
         "close": 21.77,
         "volume": 102333100.0
+      },
+      {
+        "date": "2002-10-10",
+        "open": 20.10,
+        "high": 21.91,
+        "low": 19.91,
+        "close": 21.09,
+        "volume": 106641000.0
+      },
+      {
+        "date": "2002-10-11",
+        "open": 21.55,
+        "high": 22.98,
+        "low": 20.51,
+        "close": 22.10,
+        "volume": 128397800.0
+      },
+      {
+        "date": "2002-10-16",
+        "open": 22.72,
+        "high": 23.60,
+        "low": 20.95,
+        "close": 22.65,
+        "volume": 86678000.0
+      },
+      {
+        "date": "2002-10-21",
+        "open": 23.52,
+        "high": 24.45,
+        "low": 21.42,
+        "close": 24.32,
+        "volume": 79368900.0
+      },
+      {
+        "date": "2002-11-13",
+        "open": 24.74,
+        "high": 25.92,
+        "low": 23.35,
+        "close": 25.16,
+        "volume": 113670000.0
+      },
+      {
+        "date": "2002-11-18",
+        "open": 26.72,
+        "high": 26.77,
+        "low": 23.63,
+        "close": 26.02,
+        "volume": 72857100.0
+      },
+      {
+        "date": "2002-11-21",
+        "open": 26.93,
+        "high": 29.70,
+        "low": 26.60,
+        "close": 27.80,
+        "volume": 104164700.0
       },
       {
         "date": "2003-01-02",
@@ -182,12 +599,84 @@
         "volume": 108671100.0
       },
       {
+        "date": "2003-02-11",
+        "open": 24.25,
+        "high": 24.61,
+        "low": 21.14,
+        "close": 24.11,
+        "volume": 72796800.0
+      },
+      {
+        "date": "2003-03-31",
+        "open": 25.60,
+        "high": 27.36,
+        "low": 24.31,
+        "close": 25.32,
+        "volume": 83743300.0
+      },
+      {
+        "date": "2003-04-09",
+        "open": 26.10,
+        "high": 26.71,
+        "low": 23.59,
+        "close": 25.46,
+        "volume": 73820500.0
+      },
+      {
+        "date": "2003-04-24",
+        "open": 27.36,
+        "high": 27.75,
+        "low": 24.47,
+        "close": 27.56,
+        "volume": 71731200.0
+      },
+      {
+        "date": "2003-05-12",
+        "open": 28.36,
+        "high": 28.96,
+        "low": 25.85,
+        "close": 28.85,
+        "volume": 66583800.0
+      },
+      {
         "date": "2003-05-22",
         "open": 27.76,
         "high": 28.32,
         "low": 23.14,
         "close": 28.13,
         "volume": 60491200.0
+      },
+      {
+        "date": "2003-06-11",
+        "open": 30.07,
+        "high": 32.86,
+        "low": 29.17,
+        "close": 30.52,
+        "volume": 85915300.0
+      },
+      {
+        "date": "2003-06-25",
+        "open": 29.67,
+        "high": 33.05,
+        "low": 29.47,
+        "close": 29.60,
+        "volume": 91645200.0
+      },
+      {
+        "date": "2003-07-02",
+        "open": 30.41,
+        "high": 33.61,
+        "low": 30.38,
+        "close": 30.90,
+        "volume": 79805700.0
+      },
+      {
+        "date": "2003-09-02",
+        "open": 33.49,
+        "high": 33.86,
+        "low": 30.48,
+        "close": 33.83,
+        "volume": 77991800.0
       },
       {
         "date": "2003-09-11",
@@ -198,6 +687,14 @@
         "volume": 92848200.0
       },
       {
+        "date": "2003-11-06",
+        "open": 35.79,
+        "high": 35.90,
+        "low": 32.54,
+        "close": 35.82,
+        "volume": 86444500.0
+      },
+      {
         "date": "2003-11-17",
         "open": 34.84,
         "high": 35.85,
@@ -206,12 +703,52 @@
         "volume": 106154700.0
       },
       {
+        "date": "2003-12-04",
+        "open": 35.38,
+        "high": 39.43,
+        "low": 35.08,
+        "close": 35.63,
+        "volume": 97154300.0
+      },
+      {
+        "date": "2003-12-22",
+        "open": 35.35,
+        "high": 38.57,
+        "low": 34.64,
+        "close": 35.58,
+        "volume": 62443900.0
+      },
+      {
+        "date": "2004-01-16",
+        "open": 38.38,
+        "high": 38.63,
+        "low": 34.83,
+        "close": 38.57,
+        "volume": 73172200.0
+      },
+      {
         "date": "2004-03-01",
         "open": 36.68,
         "high": 37.07,
         "low": 30.70,
         "close": 36.98,
         "volume": 77086800.0
+      },
+      {
+        "date": "2004-03-05",
+        "open": 36.42,
+        "high": 39.93,
+        "low": 36.15,
+        "close": 36.68,
+        "volume": 114239900.0
+      },
+      {
+        "date": "2004-05-12",
+        "open": 35.12,
+        "high": 38.40,
+        "low": 34.27,
+        "close": 35.22,
+        "volume": 195129600.0
       },
       {
         "date": "2004-08-11",
@@ -238,6 +775,22 @@
         "volume": 120990200.0
       },
       {
+        "date": "2004-11-23",
+        "open": 39.01,
+        "high": 39.15,
+        "low": 33.89,
+        "close": 38.89,
+        "volume": 89666800.0
+      },
+      {
+        "date": "2005-05-13",
+        "open": 35.99,
+        "high": 38.38,
+        "low": 34.28,
+        "close": 36.23,
+        "volume": 131846644.0
+      },
+      {
         "date": "2006-12-01",
         "open": 44.01,
         "high": 44.35,
@@ -254,12 +807,68 @@
         "volume": 120323127.0
       },
       {
+        "date": "2008-10-10",
+        "open": 30.50,
+        "high": 32.48,
+        "low": 29.38,
+        "close": 31.32,
+        "volume": 454765950.0
+      },
+      {
+        "date": "2008-10-16",
+        "open": 30.81,
+        "high": 32.27,
+        "low": 29.26,
+        "close": 32.26,
+        "volume": 468405167.0
+      },
+      {
+        "date": "2008-10-28",
+        "open": 29.70,
+        "high": 31.88,
+        "low": 28.85,
+        "close": 31.88,
+        "volume": 305951541.0
+      },
+      {
+        "date": "2008-11-13",
+        "open": 28.61,
+        "high": 30.53,
+        "low": 27.28,
+        "close": 30.46,
+        "volume": 307560798.0
+      },
+      {
+        "date": "2010-05-06",
+        "open": 47.85,
+        "high": 48.32,
+        "low": 42.00,
+        "close": 46.57,
+        "volume": 260277948.0
+      },
+      {
         "date": "2015-08-24",
         "open": 94.17,
         "high": 102.53,
         "low": 84.74,
         "close": 98.46,
         "volume": 134472193.0
+      },
+      {
+        "date": "2025-04-07",
+        "open": 407.80,
+        "high": 443.14,
+        "low": 402.39,
+        "close": 423.69,
+        "volume": 146522087.0
+      },
+      {
+        "date": "2025-04-09",
+        "open": 415.66,
+        "high": 467.92,
+        "low": 415.43,
+        "close": 466.00,
+        "volume": 128416582.0
       }
     ],
     "dailyData": [
@@ -2760,18 +3369,6 @@
         "totalDelta": -6.44
       },
       {
-        "date": "2000-01-04",
-        "open": 92.00,
-        "high": 99.38,
-        "low": 88.50,
-        "close": 88.82,
-        "volume": 33341200.0,
-        "openToHigh": 8.02,
-        "openToLow": -3.80,
-        "openToClose": -3.46,
-        "totalDelta": -10.94
-      },
-      {
         "date": "2000-01-05",
         "open": 87.50,
         "high": 90.03,
@@ -2938,18 +3535,6 @@
         "openToLow": -3.22,
         "openToClose": -2.96,
         "totalDelta": -3.28
-      },
-      {
-        "date": "2000-01-27",
-        "open": 91.75,
-        "high": 98.75,
-        "low": 87.62,
-        "close": 89.97,
-        "volume": 30257600.0,
-        "openToHigh": 7.63,
-        "openToLow": -4.50,
-        "openToClose": -1.94,
-        "totalDelta": -11.27
       },
       {
         "date": "2000-01-28",
@@ -3588,30 +4173,6 @@
         "totalDelta": -8.44
       },
       {
-        "date": "2000-04-14",
-        "open": 86.06,
-        "high": 88.50,
-        "low": 78.00,
-        "close": 80.25,
-        "volume": 59724100.0,
-        "openToHigh": 2.84,
-        "openToLow": -9.37,
-        "openToClose": -6.75,
-        "totalDelta": -11.86
-      },
-      {
-        "date": "2000-04-17",
-        "open": 78.02,
-        "high": 88.00,
-        "low": 78.00,
-        "close": 87.63,
-        "volume": 55296400.0,
-        "openToHigh": 12.79,
-        "openToLow": -0.03,
-        "openToClose": 12.32,
-        "totalDelta": 12.82
-      },
-      {
         "date": "2000-04-18",
         "open": 89.48,
         "high": 92.63,
@@ -3682,18 +4243,6 @@
         "openToLow": -3.73,
         "openToClose": -3.73,
         "totalDelta": -5.59
-      },
-      {
-        "date": "2000-04-28",
-        "open": 93.56,
-        "high": 94.75,
-        "low": 82.89,
-        "close": 94.25,
-        "volume": 23397200.0,
-        "openToHigh": 1.27,
-        "openToLow": -11.40,
-        "openToClose": 0.74,
-        "totalDelta": 14.31
       },
       {
         "date": "2000-05-01",
@@ -3778,18 +4327,6 @@
         "openToLow": -4.73,
         "openToClose": -2.64,
         "totalDelta": -5.41
-      },
-      {
-        "date": "2000-05-10",
-        "open": 84.38,
-        "high": 92.30,
-        "low": 80.75,
-        "close": 80.98,
-        "volume": 33201800.0,
-        "openToHigh": 9.39,
-        "openToLow": -4.30,
-        "openToClose": -4.03,
-        "totalDelta": -12.51
       },
       {
         "date": "2000-05-11",
@@ -3886,30 +4423,6 @@
         "openToLow": -7.41,
         "openToClose": 0.0,
         "totalDelta": 0.0
-      },
-      {
-        "date": "2000-05-23",
-        "open": 81.38,
-        "high": 85.78,
-        "low": 75.31,
-        "close": 75.75,
-        "volume": 30734700.0,
-        "openToHigh": 5.41,
-        "openToLow": -7.46,
-        "openToClose": -6.92,
-        "totalDelta": -12.21
-      },
-      {
-        "date": "2000-05-24",
-        "open": 75.00,
-        "high": 80.00,
-        "low": 72.25,
-        "close": 79.44,
-        "volume": 49939800.0,
-        "openToHigh": 6.67,
-        "openToLow": -3.67,
-        "openToClose": 5.92,
-        "totalDelta": 10.73
       },
       {
         "date": "2000-05-25",
@@ -4066,18 +4579,6 @@
         "openToLow": -3.69,
         "openToClose": -3.30,
         "totalDelta": -3.69
-      },
-      {
-        "date": "2000-06-15",
-        "open": 91.88,
-        "high": 93.81,
-        "low": 81.77,
-        "close": 93.56,
-        "volume": 18513300.0,
-        "openToHigh": 2.10,
-        "openToLow": -11.00,
-        "openToClose": 1.83,
-        "totalDelta": 14.72
       },
       {
         "date": "2000-06-16",
@@ -4320,18 +4821,6 @@
         "totalDelta": 2.78
       },
       {
-        "date": "2000-07-17",
-        "open": 100.94,
-        "high": 102.06,
-        "low": 91.61,
-        "close": 101.52,
-        "volume": 12798100.0,
-        "openToHigh": 1.11,
-        "openToLow": -9.24,
-        "openToClose": 0.57,
-        "totalDelta": 11.41
-      },
-      {
         "date": "2000-07-18",
         "open": 100.38,
         "high": 100.97,
@@ -4342,30 +4831,6 @@
         "openToLow": -2.01,
         "openToClose": -1.37,
         "totalDelta": -2.58
-      },
-      {
-        "date": "2000-07-19",
-        "open": 98.31,
-        "high": 98.94,
-        "low": 87.83,
-        "close": 96.06,
-        "volume": 21249600.0,
-        "openToHigh": 0.64,
-        "openToLow": -10.66,
-        "openToClose": -2.29,
-        "totalDelta": -11.23
-      },
-      {
-        "date": "2000-07-20",
-        "open": 97.88,
-        "high": 99.88,
-        "low": 87.39,
-        "close": 99.50,
-        "volume": 19233600.0,
-        "openToHigh": 2.04,
-        "openToLow": -10.72,
-        "openToClose": 1.66,
-        "totalDelta": 14.29
       },
       {
         "date": "2000-07-21",
@@ -4452,18 +4917,6 @@
         "totalDelta": 5.14
       },
       {
-        "date": "2000-08-01",
-        "open": 89.81,
-        "high": 99.83,
-        "low": 87.48,
-        "close": 87.98,
-        "volume": 15374700.0,
-        "openToHigh": 11.16,
-        "openToLow": -2.59,
-        "openToClose": -2.04,
-        "totalDelta": -12.37
-      },
-      {
         "date": "2000-08-02",
         "open": 87.88,
         "high": 90.39,
@@ -4474,18 +4927,6 @@
         "openToLow": -1.14,
         "openToClose": -0.90,
         "totalDelta": -3.88
-      },
-      {
-        "date": "2000-08-03",
-        "open": 84.25,
-        "high": 90.50,
-        "low": 79.31,
-        "close": 90.50,
-        "volume": 35322400.0,
-        "openToHigh": 7.42,
-        "openToLow": -5.86,
-        "openToClose": 7.42,
-        "totalDelta": 14.11
       },
       {
         "date": "2000-08-04",
@@ -4812,18 +5253,6 @@
         "totalDelta": -4.07
       },
       {
-        "date": "2000-09-13",
-        "open": 90.25,
-        "high": 93.75,
-        "low": 85.00,
-        "close": 93.31,
-        "volume": 33216900.0,
-        "openToHigh": 3.88,
-        "openToLow": -5.82,
-        "openToClose": 3.39,
-        "totalDelta": 10.29
-      },
-      {
         "date": "2000-09-14",
         "open": 95.25,
         "high": 96.25,
@@ -4894,18 +5323,6 @@
         "openToLow": -1.80,
         "openToClose": -1.19,
         "totalDelta": -3.06
-      },
-      {
-        "date": "2000-09-22",
-        "open": 87.63,
-        "high": 97.75,
-        "low": 87.50,
-        "close": 92.20,
-        "volume": 33321300.0,
-        "openToHigh": 11.55,
-        "openToLow": -0.15,
-        "openToClose": 5.22,
-        "totalDelta": 11.71
       },
       {
         "date": "2000-09-25",
@@ -5700,18 +6117,6 @@
         "totalDelta": -6.80
       },
       {
-        "date": "2001-01-02",
-        "open": 58.56,
-        "high": 58.69,
-        "low": 52.44,
-        "close": 53.23,
-        "volume": 61819700.0,
-        "openToHigh": 0.22,
-        "openToLow": -10.45,
-        "openToClose": -9.10,
-        "totalDelta": -10.65
-      },
-      {
         "date": "2001-01-04",
         "open": 61.63,
         "high": 63.63,
@@ -5914,18 +6319,6 @@
         "openToLow": -1.47,
         "openToClose": 3.63,
         "totalDelta": 5.41
-      },
-      {
-        "date": "2001-01-30",
-        "open": 67.15,
-        "high": 69.21,
-        "low": 60.40,
-        "close": 66.86,
-        "volume": 41285400.0,
-        "openToHigh": 3.07,
-        "openToLow": -10.05,
-        "openToClose": -0.43,
-        "totalDelta": -12.73
       },
       {
         "date": "2001-01-31",
@@ -6300,42 +6693,6 @@
         "totalDelta": 6.13
       },
       {
-        "date": "2001-03-20",
-        "open": 43.44,
-        "high": 45.20,
-        "low": 40.20,
-        "close": 40.20,
-        "volume": 105692400.0,
-        "openToHigh": 4.05,
-        "openToLow": -7.46,
-        "openToClose": -7.46,
-        "totalDelta": -11.06
-      },
-      {
-        "date": "2001-03-21",
-        "open": 40.52,
-        "high": 44.25,
-        "low": 38.83,
-        "close": 40.10,
-        "volume": 93462300.0,
-        "openToHigh": 9.21,
-        "openToLow": -4.17,
-        "openToClose": -1.04,
-        "totalDelta": -12.25
-      },
-      {
-        "date": "2001-03-22",
-        "open": 40.60,
-        "high": 42.66,
-        "low": 38.75,
-        "close": 42.50,
-        "volume": 137815500.0,
-        "openToHigh": 5.07,
-        "openToLow": -4.56,
-        "openToClose": 4.68,
-        "totalDelta": 10.09
-      },
-      {
         "date": "2001-03-23",
         "open": 43.55,
         "high": 43.83,
@@ -6418,18 +6775,6 @@
         "openToLow": -6.38,
         "openToClose": -3.63,
         "totalDelta": -8.12
-      },
-      {
-        "date": "2001-04-03",
-        "open": 37.20,
-        "high": 39.25,
-        "low": 34.62,
-        "close": 34.86,
-        "volume": 86663600.0,
-        "openToHigh": 5.51,
-        "openToLow": -6.94,
-        "openToClose": -6.29,
-        "totalDelta": -11.80
       },
       {
         "date": "2001-04-04",
@@ -6538,18 +6883,6 @@
         "openToLow": -0.13,
         "openToClose": 4.26,
         "totalDelta": 6.39
-      },
-      {
-        "date": "2001-04-19",
-        "open": 46.10,
-        "high": 48.73,
-        "low": 43.80,
-        "close": 48.70,
-        "volume": 118045800.0,
-        "openToHigh": 5.70,
-        "openToLow": -4.99,
-        "openToClose": 5.64,
-        "totalDelta": 11.26
       },
       {
         "date": "2001-04-20",
@@ -6682,18 +7015,6 @@
         "openToLow": -0.42,
         "openToClose": 5.85,
         "totalDelta": 6.76
-      },
-      {
-        "date": "2001-05-07",
-        "open": 48.00,
-        "high": 48.75,
-        "low": 42.79,
-        "close": 47.21,
-        "volume": 44587600.0,
-        "openToHigh": 1.56,
-        "openToLow": -10.85,
-        "openToClose": -1.65,
-        "totalDelta": -12.23
       },
       {
         "date": "2001-05-08",
@@ -7860,18 +8181,6 @@
         "totalDelta": 6.93
       },
       {
-        "date": "2001-10-01",
-        "open": 28.85,
-        "high": 32.36,
-        "low": 27.85,
-        "close": 28.61,
-        "volume": 52781600.0,
-        "openToHigh": 12.17,
-        "openToLow": -3.47,
-        "openToClose": -0.83,
-        "totalDelta": -13.94
-      },
-      {
         "date": "2001-10-02",
         "open": 28.65,
         "high": 29.97,
@@ -7882,18 +8191,6 @@
         "openToLow": -2.27,
         "openToClose": 0.66,
         "totalDelta": 7.04
-      },
-      {
-        "date": "2001-10-03",
-        "open": 28.43,
-        "high": 31.61,
-        "low": 28.33,
-        "close": 31.05,
-        "volume": 133162300.0,
-        "openToHigh": 11.19,
-        "openToLow": -0.35,
-        "openToClose": 9.22,
-        "totalDelta": 11.58
       },
       {
         "date": "2001-10-04",
@@ -8004,18 +8301,6 @@
         "totalDelta": 2.91
       },
       {
-        "date": "2001-10-17",
-        "open": 35.87,
-        "high": 36.95,
-        "low": 32.30,
-        "close": 32.79,
-        "volume": 154599400.0,
-        "openToHigh": 3.01,
-        "openToLow": -9.95,
-        "openToClose": -8.59,
-        "totalDelta": -12.58
-      },
-      {
         "date": "2001-10-18",
         "open": 32.70,
         "high": 34.69,
@@ -8086,18 +8371,6 @@
         "openToLow": -1.38,
         "openToClose": 5.91,
         "totalDelta": 7.57
-      },
-      {
-        "date": "2001-10-26",
-        "open": 36.50,
-        "high": 37.06,
-        "low": 33.32,
-        "close": 36.26,
-        "volume": 92281300.0,
-        "openToHigh": 1.53,
-        "openToLow": -8.71,
-        "openToClose": -0.66,
-        "totalDelta": -10.09
       },
       {
         "date": "2001-10-29",
@@ -8194,18 +8467,6 @@
         "openToLow": -3.37,
         "openToClose": -2.33,
         "totalDelta": -6.81
-      },
-      {
-        "date": "2001-11-09",
-        "open": 37.60,
-        "high": 38.75,
-        "low": 34.43,
-        "close": 37.69,
-        "volume": 71811800.0,
-        "openToHigh": 3.06,
-        "openToLow": -8.43,
-        "openToClose": 0.24,
-        "totalDelta": 12.55
       },
       {
         "date": "2001-11-12",
@@ -8410,18 +8671,6 @@
         "openToLow": -0.82,
         "openToClose": 0.14,
         "totalDelta": 5.03
-      },
-      {
-        "date": "2001-12-07",
-        "open": 42.49,
-        "high": 46.20,
-        "low": 41.14,
-        "close": 41.72,
-        "volume": 83031500.0,
-        "openToHigh": 8.73,
-        "openToLow": -3.18,
-        "openToClose": -1.81,
-        "totalDelta": -10.95
       },
       {
         "date": "2001-12-10",
@@ -8904,18 +9153,6 @@
         "totalDelta": 3.32
       },
       {
-        "date": "2002-02-11",
-        "open": 36.14,
-        "high": 39.17,
-        "low": 35.25,
-        "close": 36.79,
-        "volume": 57597300.0,
-        "openToHigh": 8.38,
-        "openToLow": -2.46,
-        "openToClose": 1.80,
-        "totalDelta": 11.12
-      },
-      {
         "date": "2002-02-12",
         "open": 36.31,
         "high": 36.98,
@@ -9072,30 +9309,6 @@
         "totalDelta": 5.09
       },
       {
-        "date": "2002-03-04",
-        "open": 35.70,
-        "high": 37.23,
-        "low": 32.74,
-        "close": 37.18,
-        "volume": 105917300.0,
-        "openToHigh": 4.29,
-        "openToLow": -8.29,
-        "openToClose": 4.15,
-        "totalDelta": 13.71
-      },
-      {
-        "date": "2002-03-05",
-        "open": 36.94,
-        "high": 37.87,
-        "low": 34.42,
-        "close": 37.27,
-        "volume": 93016600.0,
-        "openToHigh": 2.52,
-        "openToLow": -6.82,
-        "openToClose": 0.89,
-        "totalDelta": 10.02
-      },
-      {
         "date": "2002-03-06",
         "open": 37.08,
         "high": 37.95,
@@ -9130,18 +9343,6 @@
         "openToLow": -0.26,
         "openToClose": 1.12,
         "totalDelta": 2.36
-      },
-      {
-        "date": "2002-03-11",
-        "open": 38.35,
-        "high": 41.91,
-        "low": 38.06,
-        "close": 38.66,
-        "volume": 70091400.0,
-        "openToHigh": 9.28,
-        "openToLow": -0.76,
-        "openToClose": 0.81,
-        "totalDelta": 10.12
       },
       {
         "date": "2002-03-12",
@@ -9502,18 +9703,6 @@
         "openToLow": -3.64,
         "openToClose": -2.44,
         "totalDelta": -3.93
-      },
-      {
-        "date": "2002-04-25",
-        "open": 32.31,
-        "high": 35.48,
-        "low": 32.00,
-        "close": 32.41,
-        "volume": 101260200.0,
-        "openToHigh": 9.81,
-        "openToLow": -0.96,
-        "openToClose": 0.31,
-        "totalDelta": 10.88
       },
       {
         "date": "2002-04-26",
@@ -9960,18 +10149,6 @@
         "totalDelta": -5.87
       },
       {
-        "date": "2002-06-20",
-        "open": 27.27,
-        "high": 27.75,
-        "low": 24.84,
-        "close": 26.49,
-        "volume": 98065700.0,
-        "openToHigh": 1.76,
-        "openToLow": -8.91,
-        "openToClose": -2.86,
-        "totalDelta": -10.49
-      },
-      {
         "date": "2002-06-21",
         "open": 26.37,
         "high": 27.77,
@@ -10044,18 +10221,6 @@
         "totalDelta": -6.02
       },
       {
-        "date": "2002-07-03",
-        "open": 23.85,
-        "high": 25.93,
-        "low": 22.73,
-        "close": 24.72,
-        "volume": 103246100.0,
-        "openToHigh": 8.72,
-        "openToLow": -4.70,
-        "openToClose": 3.65,
-        "totalDelta": 14.08
-      },
-      {
         "date": "2002-07-05",
         "open": 25.26,
         "high": 26.37,
@@ -10066,18 +10231,6 @@
         "openToLow": -0.83,
         "openToClose": 4.28,
         "totalDelta": 5.27
-      },
-      {
-        "date": "2002-07-08",
-        "open": 26.20,
-        "high": 28.68,
-        "low": 25.08,
-        "close": 25.25,
-        "volume": 96044800.0,
-        "openToHigh": 9.47,
-        "openToLow": -4.27,
-        "openToClose": -3.63,
-        "totalDelta": -12.55
       },
       {
         "date": "2002-07-09",
@@ -10102,18 +10255,6 @@
         "openToLow": -4.68,
         "openToClose": -4.20,
         "totalDelta": -6.91
-      },
-      {
-        "date": "2002-07-11",
-        "open": 23.77,
-        "high": 25.78,
-        "low": 23.30,
-        "close": 24.80,
-        "volume": 163549300.0,
-        "openToHigh": 8.46,
-        "openToLow": -1.98,
-        "openToClose": 4.33,
-        "totalDelta": 10.64
       },
       {
         "date": "2002-07-12",
@@ -10198,42 +10339,6 @@
         "openToLow": -4.99,
         "openToClose": -4.95,
         "totalDelta": -6.58
-      },
-      {
-        "date": "2002-07-24",
-        "open": 21.82,
-        "high": 23.65,
-        "low": 21.16,
-        "close": 23.62,
-        "volume": 180896400.0,
-        "openToHigh": 8.39,
-        "openToLow": -3.02,
-        "openToClose": 8.25,
-        "totalDelta": 11.77
-      },
-      {
-        "date": "2002-07-25",
-        "open": 23.26,
-        "high": 25.13,
-        "low": 21.80,
-        "close": 22.22,
-        "volume": 156626000.0,
-        "openToHigh": 8.04,
-        "openToLow": -6.28,
-        "openToClose": -4.47,
-        "totalDelta": -13.25
-      },
-      {
-        "date": "2002-07-26",
-        "open": 22.57,
-        "high": 24.59,
-        "low": 22.01,
-        "close": 22.65,
-        "volume": 93825700.0,
-        "openToHigh": 8.95,
-        "openToLow": -2.48,
-        "openToClose": 0.35,
-        "totalDelta": 11.72
       },
       {
         "date": "2002-07-29",
@@ -10332,18 +10437,6 @@
         "totalDelta": -6.15
       },
       {
-        "date": "2002-08-08",
-        "open": 22.76,
-        "high": 24.00,
-        "low": 21.79,
-        "close": 23.51,
-        "volume": 109982600.0,
-        "openToHigh": 5.45,
-        "openToLow": -4.26,
-        "openToClose": 3.30,
-        "totalDelta": 10.14
-      },
-      {
         "date": "2002-08-09",
         "open": 23.21,
         "high": 23.72,
@@ -10414,30 +10507,6 @@
         "openToLow": -1.66,
         "openToClose": 2.49,
         "totalDelta": 6.49
-      },
-      {
-        "date": "2002-08-19",
-        "open": 24.77,
-        "high": 26.50,
-        "low": 24.06,
-        "close": 25.47,
-        "volume": 74446500.0,
-        "openToHigh": 6.98,
-        "openToLow": -2.87,
-        "openToClose": 2.83,
-        "totalDelta": 10.14
-      },
-      {
-        "date": "2002-08-20",
-        "open": 25.19,
-        "high": 25.43,
-        "low": 22.18,
-        "close": 25.10,
-        "volume": 87549600.0,
-        "openToHigh": 0.95,
-        "openToLow": -11.95,
-        "openToClose": -0.36,
-        "totalDelta": -12.78
       },
       {
         "date": "2002-08-21",
@@ -10848,30 +10917,6 @@
         "totalDelta": 5.49
       },
       {
-        "date": "2002-10-10",
-        "open": 20.10,
-        "high": 21.91,
-        "low": 19.91,
-        "close": 21.09,
-        "volume": 106641000.0,
-        "openToHigh": 9.00,
-        "openToLow": -0.95,
-        "openToClose": 4.93,
-        "totalDelta": 10.05
-      },
-      {
-        "date": "2002-10-11",
-        "open": 21.55,
-        "high": 22.98,
-        "low": 20.51,
-        "close": 22.10,
-        "volume": 128397800.0,
-        "openToHigh": 6.64,
-        "openToLow": -4.83,
-        "openToClose": 2.55,
-        "totalDelta": 12.04
-      },
-      {
         "date": "2002-10-14",
         "open": 21.87,
         "high": 22.48,
@@ -10896,18 +10941,6 @@
         "totalDelta": 6.21
       },
       {
-        "date": "2002-10-16",
-        "open": 22.72,
-        "high": 23.60,
-        "low": 20.95,
-        "close": 22.65,
-        "volume": 86678000.0,
-        "openToHigh": 3.87,
-        "openToLow": -7.79,
-        "openToClose": -0.31,
-        "totalDelta": -11.23
-      },
-      {
         "date": "2002-10-17",
         "open": 23.60,
         "high": 23.81,
@@ -10930,18 +10963,6 @@
         "openToLow": -2.75,
         "openToClose": 2.15,
         "totalDelta": 5.12
-      },
-      {
-        "date": "2002-10-21",
-        "open": 23.52,
-        "high": 24.45,
-        "low": 21.42,
-        "close": 24.32,
-        "volume": 79368900.0,
-        "openToHigh": 3.95,
-        "openToLow": -8.93,
-        "openToClose": 3.40,
-        "totalDelta": 14.15
       },
       {
         "date": "2002-10-22",
@@ -11136,18 +11157,6 @@
         "totalDelta": 7.54
       },
       {
-        "date": "2002-11-13",
-        "open": 24.74,
-        "high": 25.92,
-        "low": 23.35,
-        "close": 25.16,
-        "volume": 113670000.0,
-        "openToHigh": 4.77,
-        "openToLow": -5.62,
-        "openToClose": 1.70,
-        "totalDelta": 11.01
-      },
-      {
         "date": "2002-11-14",
         "open": 25.58,
         "high": 26.69,
@@ -11172,18 +11181,6 @@
         "totalDelta": 4.88
       },
       {
-        "date": "2002-11-18",
-        "open": 26.72,
-        "high": 26.77,
-        "low": 23.63,
-        "close": 26.02,
-        "volume": 72857100.0,
-        "openToHigh": 0.19,
-        "openToLow": -11.56,
-        "openToClose": -2.62,
-        "totalDelta": -11.73
-      },
-      {
         "date": "2002-11-19",
         "open": 25.80,
         "high": 26.05,
@@ -11206,18 +11203,6 @@
         "openToLow": -0.23,
         "openToClose": 4.18,
         "totalDelta": 4.51
-      },
-      {
-        "date": "2002-11-21",
-        "open": 26.93,
-        "high": 29.70,
-        "low": 26.60,
-        "close": 27.80,
-        "volume": 104164700.0,
-        "openToHigh": 10.29,
-        "openToLow": -1.23,
-        "openToClose": 3.23,
-        "totalDelta": 11.65
       },
       {
         "date": "2002-11-22",
@@ -11832,18 +11817,6 @@
         "totalDelta": 5.80
       },
       {
-        "date": "2003-02-11",
-        "open": 24.25,
-        "high": 24.61,
-        "low": 21.14,
-        "close": 24.11,
-        "volume": 72796800.0,
-        "openToHigh": 1.48,
-        "openToLow": -12.82,
-        "openToClose": -0.58,
-        "totalDelta": -14.10
-      },
-      {
         "date": "2003-02-12",
         "open": 24.07,
         "high": 24.41,
@@ -12228,18 +12201,6 @@
         "totalDelta": -1.82
       },
       {
-        "date": "2003-03-31",
-        "open": 25.60,
-        "high": 27.36,
-        "low": 24.31,
-        "close": 25.32,
-        "volume": 83743300.0,
-        "openToHigh": 6.88,
-        "openToLow": -5.04,
-        "openToClose": -1.09,
-        "totalDelta": -11.15
-      },
-      {
         "date": "2003-04-01",
         "open": 25.44,
         "high": 25.67,
@@ -12310,18 +12271,6 @@
         "openToLow": -1.03,
         "openToClose": -0.54,
         "totalDelta": -1.56
-      },
-      {
-        "date": "2003-04-09",
-        "open": 26.10,
-        "high": 26.71,
-        "low": 23.59,
-        "close": 25.46,
-        "volume": 73820500.0,
-        "openToHigh": 2.34,
-        "openToLow": -9.62,
-        "openToClose": -2.45,
-        "totalDelta": -11.68
       },
       {
         "date": "2003-04-10",
@@ -12430,18 +12379,6 @@
         "openToLow": -0.87,
         "openToClose": 0.55,
         "totalDelta": 1.98
-      },
-      {
-        "date": "2003-04-24",
-        "open": 27.36,
-        "high": 27.75,
-        "low": 24.47,
-        "close": 27.56,
-        "volume": 71731200.0,
-        "openToHigh": 1.43,
-        "openToLow": -10.56,
-        "openToClose": 0.73,
-        "totalDelta": 13.40
       },
       {
         "date": "2003-04-25",
@@ -12574,18 +12511,6 @@
         "openToLow": -2.35,
         "openToClose": 1.32,
         "totalDelta": 4.02
-      },
-      {
-        "date": "2003-05-12",
-        "open": 28.36,
-        "high": 28.96,
-        "low": 25.85,
-        "close": 28.85,
-        "volume": 66583800.0,
-        "openToHigh": 2.12,
-        "openToLow": -8.85,
-        "openToClose": 1.73,
-        "totalDelta": 12.03
       },
       {
         "date": "2003-05-13",
@@ -12816,18 +12741,6 @@
         "totalDelta": 1.68
       },
       {
-        "date": "2003-06-11",
-        "open": 30.07,
-        "high": 32.86,
-        "low": 29.17,
-        "close": 30.52,
-        "volume": 85915300.0,
-        "openToHigh": 9.28,
-        "openToLow": -2.99,
-        "openToClose": 1.50,
-        "totalDelta": 12.65
-      },
-      {
         "date": "2003-06-12",
         "open": 30.62,
         "high": 31.39,
@@ -12936,18 +12849,6 @@
         "totalDelta": -2.54
       },
       {
-        "date": "2003-06-25",
-        "open": 29.67,
-        "high": 33.05,
-        "low": 29.47,
-        "close": 29.60,
-        "volume": 91645200.0,
-        "openToHigh": 11.39,
-        "openToLow": -0.67,
-        "openToClose": -0.24,
-        "totalDelta": -10.83
-      },
-      {
         "date": "2003-06-26",
         "open": 29.71,
         "high": 30.28,
@@ -12994,18 +12895,6 @@
         "openToLow": -1.48,
         "openToClose": 1.99,
         "totalDelta": 3.66
-      },
-      {
-        "date": "2003-07-02",
-        "open": 30.41,
-        "high": 33.61,
-        "low": 30.38,
-        "close": 30.90,
-        "volume": 79805700.0,
-        "openToHigh": 10.52,
-        "openToLow": -0.10,
-        "openToClose": 1.61,
-        "totalDelta": 10.63
       },
       {
         "date": "2003-07-03",
@@ -13498,18 +13387,6 @@
         "openToLow": -2.36,
         "openToClose": 0.82,
         "totalDelta": 3.72
-      },
-      {
-        "date": "2003-09-02",
-        "open": 33.49,
-        "high": 33.86,
-        "low": 30.48,
-        "close": 33.83,
-        "volume": 77991800.0,
-        "openToHigh": 1.10,
-        "openToLow": -8.99,
-        "openToClose": 1.02,
-        "totalDelta": 11.09
       },
       {
         "date": "2003-09-03",
@@ -14052,18 +13929,6 @@
         "totalDelta": 4.32
       },
       {
-        "date": "2003-11-06",
-        "open": 35.79,
-        "high": 35.90,
-        "low": 32.54,
-        "close": 35.82,
-        "volume": 86444500.0,
-        "openToHigh": 0.31,
-        "openToLow": -9.08,
-        "openToClose": 0.08,
-        "totalDelta": 10.33
-      },
-      {
         "date": "2003-11-07",
         "open": 36.08,
         "high": 36.99,
@@ -14268,18 +14133,6 @@
         "totalDelta": -2.13
       },
       {
-        "date": "2003-12-04",
-        "open": 35.38,
-        "high": 39.43,
-        "low": 35.08,
-        "close": 35.63,
-        "volume": 97154300.0,
-        "openToHigh": 11.45,
-        "openToLow": -0.85,
-        "openToClose": 0.71,
-        "totalDelta": 12.40
-      },
-      {
         "date": "2003-12-05",
         "open": 35.27,
         "high": 35.63,
@@ -14410,18 +14263,6 @@
         "openToLow": -1.15,
         "openToClose": -0.45,
         "totalDelta": -1.26
-      },
-      {
-        "date": "2003-12-22",
-        "open": 35.35,
-        "high": 38.57,
-        "low": 34.64,
-        "close": 35.58,
-        "volume": 62443900.0,
-        "openToHigh": 9.11,
-        "openToLow": -2.01,
-        "openToClose": 0.65,
-        "totalDelta": 11.35
       },
       {
         "date": "2003-12-23",
@@ -14614,18 +14455,6 @@
         "openToLow": -0.79,
         "openToClose": 0.50,
         "totalDelta": 2.21
-      },
-      {
-        "date": "2004-01-16",
-        "open": 38.38,
-        "high": 38.63,
-        "low": 34.83,
-        "close": 38.57,
-        "volume": 73172200.0,
-        "openToHigh": 0.65,
-        "openToLow": -9.25,
-        "openToClose": 0.50,
-        "totalDelta": 10.91
       },
       {
         "date": "2004-01-20",
@@ -14998,18 +14827,6 @@
         "openToLow": -0.14,
         "openToClose": 1.02,
         "totalDelta": 1.21
-      },
-      {
-        "date": "2004-03-05",
-        "open": 36.42,
-        "high": 39.93,
-        "low": 36.15,
-        "close": 36.68,
-        "volume": 114239900.0,
-        "openToHigh": 9.64,
-        "openToLow": -0.74,
-        "openToClose": 0.71,
-        "totalDelta": 10.46
       },
       {
         "date": "2004-03-08",
@@ -15562,18 +15379,6 @@
         "openToLow": -0.14,
         "openToClose": 0.94,
         "totalDelta": 1.32
-      },
-      {
-        "date": "2004-05-12",
-        "open": 35.12,
-        "high": 38.40,
-        "low": 34.27,
-        "close": 35.22,
-        "volume": 195129600.0,
-        "openToHigh": 9.34,
-        "openToLow": -2.42,
-        "openToClose": 0.28,
-        "totalDelta": 12.05
       },
       {
         "date": "2004-05-13",
@@ -17148,18 +16953,6 @@
         "totalDelta": 1.64
       },
       {
-        "date": "2004-11-23",
-        "open": 39.01,
-        "high": 39.15,
-        "low": 33.89,
-        "close": 38.89,
-        "volume": 89666800.0,
-        "openToHigh": 0.36,
-        "openToLow": -13.12,
-        "openToClose": -0.31,
-        "totalDelta": -13.44
-      },
-      {
         "date": "2004-11-24",
         "open": 39.10,
         "high": 39.39,
@@ -18562,18 +18355,6 @@
         "openToLow": -2.64,
         "openToClose": -0.44,
         "totalDelta": -3.18
-      },
-      {
-        "date": "2005-05-13",
-        "open": 35.99,
-        "high": 38.38,
-        "low": 34.28,
-        "close": 36.23,
-        "volume": 131846644.0,
-        "openToHigh": 6.64,
-        "openToLow": -4.75,
-        "openToClose": 0.67,
-        "totalDelta": 11.96
       },
       {
         "date": "2005-05-16",
@@ -28848,18 +28629,6 @@
         "totalDelta": -8.05
       },
       {
-        "date": "2008-10-10",
-        "open": 30.50,
-        "high": 32.48,
-        "low": 29.38,
-        "close": 31.32,
-        "volume": 454765950.0,
-        "openToHigh": 6.49,
-        "openToLow": -3.67,
-        "openToClose": 2.69,
-        "totalDelta": 10.55
-      },
-      {
         "date": "2008-10-13",
         "open": 32.86,
         "high": 35.25,
@@ -28894,18 +28663,6 @@
         "openToLow": -8.20,
         "openToClose": -8.20,
         "totalDelta": -8.37
-      },
-      {
-        "date": "2008-10-16",
-        "open": 30.81,
-        "high": 32.27,
-        "low": 29.26,
-        "close": 32.26,
-        "volume": 468405167.0,
-        "openToHigh": 4.74,
-        "openToLow": -5.03,
-        "openToClose": 4.71,
-        "totalDelta": 10.29
       },
       {
         "date": "2008-10-17",
@@ -28990,18 +28747,6 @@
         "openToLow": -1.75,
         "openToClose": -1.65,
         "totalDelta": -5.10
-      },
-      {
-        "date": "2008-10-28",
-        "open": 29.70,
-        "high": 31.88,
-        "low": 28.85,
-        "close": 31.88,
-        "volume": 305951541.0,
-        "openToHigh": 7.34,
-        "openToLow": -2.86,
-        "openToClose": 7.34,
-        "totalDelta": 10.50
       },
       {
         "date": "2008-10-29",
@@ -29134,18 +28879,6 @@
         "openToLow": -3.44,
         "openToClose": -3.24,
         "totalDelta": -3.86
-      },
-      {
-        "date": "2008-11-13",
-        "open": 28.61,
-        "high": 30.53,
-        "low": 27.28,
-        "close": 30.46,
-        "volume": 307560798.0,
-        "openToHigh": 6.71,
-        "openToLow": -4.65,
-        "openToClose": 6.47,
-        "totalDelta": 11.91
       },
       {
         "date": "2008-11-14",
@@ -33574,18 +33307,6 @@
         "openToLow": -0.58,
         "openToClose": 0.54,
         "totalDelta": 1.81
-      },
-      {
-        "date": "2010-05-06",
-        "open": 47.85,
-        "high": 48.32,
-        "low": 42.00,
-        "close": 46.57,
-        "volume": 260277948.0,
-        "openToHigh": 0.98,
-        "openToLow": -12.23,
-        "openToClose": -2.68,
-        "totalDelta": -13.08
       },
       {
         "date": "2010-05-07",
@@ -78600,18 +78321,6 @@
         "totalDelta": -4.02
       },
       {
-        "date": "2025-04-07",
-        "open": 407.80,
-        "high": 443.14,
-        "low": 402.39,
-        "close": 423.69,
-        "volume": 146522087.0,
-        "openToHigh": 8.67,
-        "openToLow": -1.33,
-        "openToClose": 3.90,
-        "totalDelta": 10.13
-      },
-      {
         "date": "2025-04-08",
         "open": 438.42,
         "high": 443.13,
@@ -78622,18 +78331,6 @@
         "openToLow": -6.53,
         "openToClose": -5.10,
         "totalDelta": -7.52
-      },
-      {
-        "date": "2025-04-09",
-        "open": 415.66,
-        "high": 467.92,
-        "low": 415.43,
-        "close": 466.00,
-        "volume": 128416582.0,
-        "openToHigh": 12.57,
-        "openToLow": -0.06,
-        "openToClose": 12.11,
-        "totalDelta": 12.64
       },
       {
         "date": "2025-04-10",
