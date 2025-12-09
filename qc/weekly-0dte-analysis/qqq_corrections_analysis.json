@@ -1,0 +1,344 @@
+{
+    "analysisStartDate": "2010-04-26",
+    "analysisEndDate": "2025-04-07",
+    "numCorrections": 47,
+    "correctionData": [
+      {
+        "name": "February 2025 Correction",
+        "startDate": "2025-02-19",
+        "endDate": "2025-04-07",
+        "loss": -25.49,
+        "duration": 34
+      },
+      {
+        "name": "December 2024 Correction",
+        "startDate": "2024-12-16",
+        "endDate": "2025-01-13",
+        "loss": -7.17,
+        "duration": 18
+      },
+      {
+        "name": "August 2024 Correction",
+        "startDate": "2024-08-22",
+        "endDate": "2024-09-06",
+        "loss": -7.70,
+        "duration": 11
+      },
+      {
+        "name": "July 2024 Correction",
+        "startDate": "2024-07-10",
+        "endDate": "2024-08-05",
+        "loss": -15.90,
+        "duration": 18
+      },
+      {
+        "name": "March 2024 Correction",
+        "startDate": "2024-03-21",
+        "endDate": "2024-04-19",
+        "loss": -8.07,
+        "duration": 21
+      },
+      {
+        "name": "October 2023 Correction",
+        "startDate": "2023-10-12",
+        "endDate": "2023-10-26",
+        "loss": -8.40,
+        "duration": 11
+      },
+      {
+        "name": "September 2023 Correction",
+        "startDate": "2023-09-01",
+        "endDate": "2023-09-27",
+        "loss": -7.62,
+        "duration": 18
+      },
+      {
+        "name": "July 2023 Correction",
+        "startDate": "2023-07-19",
+        "endDate": "2023-08-19",
+        "loss": -8.58,
+        "duration": 23
+      },
+      {
+        "name": "February 2023 Correction",
+        "startDate": "2023-02-02",
+        "endDate": "2023-03-12",
+        "loss": -9.08,
+        "duration": 27
+      },
+      {
+        "name": "December 2022 Correction",
+        "startDate": "2022-12-12",
+        "endDate": "2022-12-28",
+        "loss": -12.30,
+        "duration": 11
+      },
+      {
+        "name": "September 2022 Correction",
+        "startDate": "2022-09-12",
+        "endDate": "2022-10-13",
+        "loss": -16.25,
+        "duration": 23
+      },
+      {
+        "name": "August 2022 Correction",
+        "startDate": "2022-08-16",
+        "endDate": "2022-09-06",
+        "loss": -13.02,
+        "duration": 15
+      },
+      {
+        "name": "March 2022 Correction",
+        "startDate": "2022-03-22",
+        "endDate": "2022-06-17",
+        "loss": -27.58,
+        "duration": 56
+      },
+      {
+        "name": "February 2022 Correction",
+        "startDate": "2022-02-02",
+        "endDate": "2022-03-14",
+        "loss": -14.23,
+        "duration": 28
+      },
+      {
+        "name": "December 2021 Correction",
+        "startDate": "2021-12-28",
+        "endDate": "2022-01-24",
+        "loss": -21.08,
+        "duration": 19
+      },
+      {
+        "name": "September 2021 Correction",
+        "startDate": "2021-09-07",
+        "endDate": "2021-10-04",
+        "loss": -8.38,
+        "duration": 20
+      },
+      {
+        "name": "April 2021 Correction",
+        "startDate": "2021-04-28",
+        "endDate": "2021-05-12",
+        "loss": -7.82,
+        "duration": 10
+      },
+      {
+        "name": "February 2021 Correction",
+        "startDate": "2021-02-16",
+        "endDate": "2021-03-05",
+        "loss": -12.05,
+        "duration": 14
+      },
+      {
+        "name": "October 2020 Correction",
+        "startDate": "2020-10-12",
+        "endDate": "2020-11-02",
+        "loss": -10.25,
+        "duration": 16
+      },
+      {
+        "name": "September 2020 Correction",
+        "startDate": "2020-09-02",
+        "endDate": "2020-09-21",
+        "loss": -14.17,
+        "duration": 13
+      },
+      {
+        "name": "February 2020 Correction",
+        "startDate": "2020-02-19",
+        "endDate": "2020-03-23",
+        "loss": -30.39,
+        "duration": 24
+      },
+      {
+        "name": "September 2019 Correction",
+        "startDate": "2019-09-12",
+        "endDate": "2019-10-03",
+        "loss": -6.43,
+        "duration": 16
+      },
+      {
+        "name": "July 2019 Correction",
+        "startDate": "2019-07-26",
+        "endDate": "2019-08-05",
+        "loss": -8.36,
+        "duration": 7
+      },
+      {
+        "name": "May 2019 Correction",
+        "startDate": "2019-05-01",
+        "endDate": "2019-06-03",
+        "loss": -11.52,
+        "duration": 23
+      },
+      {
+        "name": "October 2018 Correction",
+        "startDate": "2018-10-01",
+        "endDate": "2018-12-24",
+        "loss": -23.28,
+        "duration": 59
+      },
+      {
+        "name": "March 2018 Correction",
+        "startDate": "2018-03-13",
+        "endDate": "2018-04-02",
+        "loss": -12.03,
+        "duration": 14
+      },
+      {
+        "name": "January 2018 Correction",
+        "startDate": "2018-01-26",
+        "endDate": "2018-02-09",
+        "loss": -12.18,
+        "duration": 11
+      },
+      {
+        "name": "June 2017 Correction",
+        "startDate": "2017-06-09",
+        "endDate": "2017-07-06",
+        "loss": -5.37,
+        "duration": 19
+      },
+      {
+        "name": "June 2016 Correction",
+        "startDate": "2016-06-06",
+        "endDate": "2017-06-27",
+        "loss": -7.88,
+        "duration": 16
+      },
+      {
+        "name": "April 2016 Correction",
+        "startDate": "2016-04-19",
+        "endDate": "2016-05-06",
+        "loss": -6.32,
+        "duration": 14
+      },
+      {
+        "name": "December 2015 Correction",
+        "startDate": "2015-12-29",
+        "endDate": "2016-02-08",
+        "loss": -17.20,
+        "duration": 28
+      },
+      {
+        "name": "July 2015 Correction",
+        "startDate": "2015-07-20",
+        "endDate": "2015-08-24",
+        "loss": -25.92,
+        "duration": 26
+      },
+      {
+        "name": "September 2014 Correction",
+        "startDate": "2014-09-19",
+        "endDate": "2014-10-15",
+        "loss": -10.26,
+        "duration": 19
+      },
+      {
+        "name": "March 2014 Correction",
+        "startDate": "2014-03-07",
+        "endDate": "2014-04-15",
+        "loss": -8.64,
+        "duration": 28
+      },
+      {
+        "name": "May 2013 Correction",
+        "startDate": "2013-05-22",
+        "endDate": "2013-05-22",
+        "loss": -7.44,
+        "duration": 23
+      },
+      {
+        "name": "September 2012 Correction",
+        "startDate": "2012-09-21",
+        "endDate": "2012-11-16",
+        "loss": -13.09,
+        "duration": 39
+      },
+      {
+        "name": "April 2012 Correction",
+        "startDate": "2012-04-03",
+        "endDate": "2012-06-04",
+        "loss": -12.41,
+        "duration": 43
+      },
+      {
+        "name": "October 2011 Correction",
+        "startDate": "2011-10-27",
+        "endDate": "2011-11-25",
+        "loss": -10.70,
+        "duration": 21
+      },
+      {
+        "name": "September 2011 Correction",
+        "startDate": "2011-09-20",
+        "endDate": "2011-10-04",
+        "loss": -12.64,
+        "duration": 11
+      },
+      {
+        "name": "July 2011 Correction",
+        "startDate": "2011-07-26",
+        "endDate": "2011-08-09",
+        "loss": -16.54,
+        "duration": 11
+      },
+      {
+        "name": "May 2011 Correction",
+        "startDate": "2011-05-02",
+        "endDate": "2011-06-16",
+        "loss": -9.65,
+        "duration": 33
+      },
+      {
+        "name": "February 2011 Correction",
+        "startDate": "2011-02-16",
+        "endDate": "2011-03-16",
+        "loss": -8.92,
+        "duration": 20
+      },
+      {
+        "name": "November 2010 Correction",
+        "startDate": "2010-11-09",
+        "endDate": "2010-11-16",
+        "loss": -5.90,
+        "duration": 6
+      },
+      {
+        "name": "August 2010 Correction",
+        "startDate": "2010-08-09",
+        "endDate": "2010-08-27",
+        "loss": -8.94,
+        "duration": 15
+      },
+      {
+        "name": "June 2010 Correction",
+        "startDate": "2010-06-21",
+        "endDate": "2010-07-01",
+        "loss": -12.40,
+        "duration": 9
+      },
+      {
+        "name": "April 2010 Correction",
+        "startDate": "2010-04-26",
+        "endDate": "2010-05-06",
+        "loss": -17.97,
+        "duration": 9
+      },
+      {
+        "name": "May 2010 Correction",
+        "startDate": "2010-05-13",
+        "endDate": "2010-05-25",
+        "loss": -11.40,
+        "duration": 9
+      },
+      {
+        "name": "January 2010 Correction",
+        "startDate": "2010-01-19",
+        "endDate": "2010-02-05",
+        "loss": -9.69,
+        "duration": 14
+      }
+    ]
+  }
+  
